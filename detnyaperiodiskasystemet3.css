@@ -66,18 +66,8 @@
 #system #SectionSystem #systemtop #EttHundraArton tr td.rest{
 	border: dashed 2px black;	
 }
-body{
-	
-	
-}
-
-
-
 header{
-	width: 100%;
-	
-	
-	
+	width: 100%;	
 }
 header #overheader{
 	padding-bottom: 10px;
@@ -146,7 +136,7 @@ header section nav ul li .tjocklank {
 	
 }
 header section nav ul li a:hover{
-	color: #F00004;
+	color:  #FFF500;
 	border-color: white;
 	z-index: -1;
 	
@@ -210,10 +200,6 @@ header #key #keycolor div div{
 }
 header #key #keycolor div .ruta{
 	margin-left:2px;	
-	
-}
- header #key #keycolor #uppe div{
-
 	
 }
 header #key #keycolor #nere div{
@@ -338,5 +324,47 @@ header #key #keycolor #nere div{
 	max-height: 42px;
 	min-width: 42px;
 	max-width: 42px;
+	
+}
+@media only screen and (min-width:1920px){
+header #key{
+	margin: 0 auto;
+	/* width:100%; */
+	width:1400px;
+	margin-top: 10px;
+	height: 90px;
+}
+header #key #keycolor div div{
+	width: 271px;	
+	float: left;
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+	
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td{
+	width: 70px;
+	height: 70px;
+	text-align:center;	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: solid 1px black;
+	font-weight: bold;
+	font-size: 24px;
+	min-height: 70px;
+	max-height: 70px;
+	min-width: 70px;
+	max-width: 70px;
+}
+#system #SectionSystem #systembottom .lantact tr td{
+
+		width: 70px;
+	height: 70px;
+	font-size: 24px;
+
+	min-height: 70px;
+	max-height: 70px;
+	min-width: 70px;
+	max-width: 70px;
+}	
 	
 }
