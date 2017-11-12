@@ -1,0 +1,1616 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Huvudsida</title>
+
+<link href="detnyaperiodiskasystemet3.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript">
+
+function cursor(id1,id2,id3)
+{
+	
+	document.getElementById(id2).style.cursor = 'pointer';
+	document.getElementById(id1).style.display = 'block';
+} <!-- Javascript -->
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="Scripts.js"></script>
+</head>
+
+<body background ="bakgrund2.png">
+	<header>
+    	<section id="overheader">
+    	<figure>
+    		<img src="periodiska_systemet2.png" alt="#">
+    	</figure> 
+    	<nav>
+        	 <ul>
+                            <li><a href="#">Systemet</a>
+                                <ul>
+                                    
+                                    <li><a href="36Boxar.html">32 Kolummn</a></li>
+                                    <li><a href="Block.html">Block</a></li>
+                                    <li><a href="#">Elektronnegativitet</a></li>
+                                     
+                                </ul>
+                            </li>
+                            <li><a href="#" class="tjocklank">Grupper</a>
+                            <ul>
+                            <!-- Kommentar-->
+                                    <li><a href="#" class="tjocklank">Alkalimetaller</a>
+                                    
+                                    </li>
+                                    <li><a href="#" class="tjocklank">Alkaliska Jordartsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Övergångsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Borgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kolgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kvävegruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Syregruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Halogenerna</a></li>
+                                    <li><a href="#" class="tjocklank">Ädelgaserna</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Perioder</a>
+                            <ul>
+                                    <li><a href="#">1 K-Skalet</a></li>
+                                    <li><a href="#">2 L-Skalet</a></li>
+                                    <li><a href="#">3 M-Skalet</a></li>
+                                    <li><a href="#">4 N-Skalet</a></li>
+                                    <li><a href="#">5 O-Skalet</a></li>
+                                    <li><a href="#">6 P-Skalet</a></li>
+                                    <li><a href="#">7 Q-Skalet</a></li>
+                                        
+                                </ul>
+                            </li>
+                            <li><a href="#">Listor</a>
+                            <ul>	
+                                    
+                                    <li><a href="#">Atommassa</a></li>
+                                    <li><a href="#">Atomradie</a></li>
+                                    <li><a href="#">Densistet</a></li>
+                                    <li><a href="#">Kokpunkt</a></li>
+                                    <li><a href="#">Smältpunkt</a></li>
+                                    
+                            </ul>
+                            </li>  
+                            <li><a href="#">Om</a>
+                            
+                            </li>    
+                        </ul>
+                    </nav>
+                    </section>
+        <div style="clear:both"></div>            
+       <section id="key">
+        	        <div id="keycolor"> <!-- Nyckeln som förklara vad tabellens olika färger står för -->
+                        <div id="uppe">
+                            <div class="key1">Alkalimetall</div>
+                            <div class="ruta key2">Alkalisk Jordartsmetall</div>
+                            <div class="key3 ruta">Övergångsmetall</div>
+                            <div class="key4 ruta">Posttransitionsmetall</div>
+                            <div class="key5 ruta">Halvmetall</div>
+                        </div>
+                        <div id="nere">
+                            <div class="key6">Ickemetall</div>
+                            <div class="key7 ruta">Halogen</div>
+                            <div class="key8 ruta">Ädelgas</div>
+                            <div class="key9 ruta">Lantanoid</div>
+                            <div class="key10 ruta">Aktnid</div>
+                            
+                        </div>
+                </div><!--keycolor -->
+        
+    	</section>  
+    	<div style="clear:both"></div>
+    </header>
+    <div style="clear:both"></div>
+    <section id="system" class="Neutral">
+    	
+        <div style="clear:both"></div>
+        <section id="SectionSystem">
+    	<div id="systemtop">
+         <div style="clear:both"></div>   
+            <table id="EttHundraArton"><!-- Själva periodiska systemet gjot i en tabell -->
+    
+                   	<tr>
+                        
+                       	<td id="nr1" class="Ickemetaller ruta Gas" 
+                        onmouseover="cursor('väte', 'nr1')"
+                        onmouseout="document.getElementById('väte').style.display = 'none'"
+                        onClick="window.open('Vate.html' ,'_self')"> <!-- För att man ska kunna klicka på hela boxen och inte bara på bokstaven har jag satt in ett javascript som möjliggör det -->
+           	            H
+                            </td>
+                            
+                    	<td colspan="1" class="borderblock"></td>
+                        <td rowspan="3" colspan="10" id="color">
+                        
+                        <div id="boxmednamn" > <!-- Nedan följer 118 st id, 1 för varje grundämne. Varje id är kopplat till ett javascript för att informationen i idn ska dyka upp nr man hovrar över ämnets ruta-->
+                <div id="väte" style="display:none">
+                <p class="siffrauppe">1 </p>
+                <p>Väte</p>
+                <p class="siffranere">1 </p>
+                </div><!--väte-->
+                
+                <div id="helium" style="display:none">
+                 <p class="siffrauppe">4 </p>
+                <p>Helium</p>
+                <p class="siffranere">2</p>
+                </div><!-- helium -->
+                
+                <div id="litium" style="display:none">
+                <p class="siffrauppe">7 </p>
+                <p>Litium</p>
+                <p class="siffranere">3</p>
+                </div><!-- litium -->
+                
+                <div id="beryllium" style="display:none">
+                <p class="siffrauppe">9 </p>
+                <p>Beryllium</p>
+                <p class="siffranere">4 </p>
+                </div><!--beryllium-->
+                
+                <div id="bor" style="display:none">
+                 <p class="siffrauppe">11 </p>
+                <p>Bor</p>
+                <p class="siffranere">5</p>
+                </div><!-- bor -->
+                
+                <div id="kol" style="display:none">
+                <p class="siffrauppe">12 </p>
+                <p>Kol</p>
+                <p class="siffranere">6</p>
+                </div><!-- kol -->
+                
+                <div id="kväve" style="display:none">
+                <p class="siffrauppe">14 </p>
+                <p>Kväve</p>
+                <p class="siffranere">7</p>
+                </div><!-- kväve -->
+                
+                <div id="fosfor" style="display:none">
+                <p class="siffrauppe">16 </p>
+                <p>Fosfor</p>
+                <p class="siffranere">8 </p>
+                </div><!--fosfor-->
+                
+                <div id="syre" style="display:none">
+                <p class="siffrauppe">16 </p>
+                <p>Syre</p>
+                <p class="siffranere">8 </p>
+                </div><!--syre-->
+                
+                <div id="fluor" style="display:none">
+                 <p class="siffrauppe">19 </p>
+                <p>Fluor</p>
+                <p class="siffranere">9</p>
+                </div><!-- fluor -->
+                
+                <div id="neon" style="display:none">
+                <p class="siffrauppe">20 </p>
+                <p>Neon</p>
+                <p class="siffranere">10</p>
+                </div><!-- neon -->
+                
+                <div id="natrium" style="display:none">
+                <p class="siffrauppe">23 </p>
+                <p>Natrium</p>
+                <p class="siffranere">11</p>
+                </div><!-- natrium -->
+                
+                <div id="magnesium" style="display:none">
+                <p class="siffrauppe">24 </p>
+                <p>Magnesium</p>
+                <p class="siffranere">12</p>
+                </div><!-- magnesium -->
+                
+                <div id="aluminium" style="display:none">
+                <p class="siffrauppe">27 </p>
+                <p>Aluminium</p>
+                <p class="siffranere">13</p>
+                </div><!-- aluminium -->
+                
+                <div id="kisel" style="display:none">
+                <p class="siffrauppe">28 </p>
+                <p>Kisel</p>
+                <p class="siffranere">14</p>
+                </div><!-- kisel -->
+                
+                <div id="fosfor" style="display:none">
+                <p class="siffrauppe">31 </p>
+                <p>Fosfor</p>
+                <p class="siffranere">15</p>
+                </div><!-- fosfor -->
+                
+                <div id="svavel" style="display:none">
+                <p class="siffrauppe">32 </p>
+                <p>Svavel</p>
+                <p class="siffranere">16</p>
+                </div><!-- svavel -->
+                
+                <div id="klor" style="display:none">
+                <p class="siffrauppe">35 </p>
+                <p>Klor</p>
+                <p class="siffranere">17</p>
+                </div><!-- klor -->
+                
+                <div id="argon" style="display:none">
+                <p class="siffrauppe">40 </p>
+                <p>Argon</p>
+                <p class="siffranere">18</p>
+                </div><!-- argon -->
+                
+                <div id="kalium" style="display:none">
+                <p class="siffrauppe">39 </p>
+                <p>Kalium</p>
+                <p class="siffranere">19</p>
+                </div><!-- kalium -->
+                
+                <div id="kalcium" style="display:none">
+                <p class="siffrauppe">40 </p>
+                <p>Kalcium</p>
+                <p class="siffranere">20</p>
+                </div><!-- calcium -->
+                
+                <div id="scandium" style="display:none">
+                <p class="siffrauppe">45 </p>
+                <p>Scandium</p>
+                <p class="siffranere">21</p>
+                </div><!-- scandium -->
+                
+                <div id="titan" style="display:none">
+                <p class="siffrauppe">48 </p>
+                <p>Titan</p>
+                <p class="siffranere">22</p>
+                </div><!-- titan -->
+                
+                <div id="vanadin" style="display:none">
+                <p class="siffrauppe">51 </p>
+                <p>Vanadin</p>
+                <p class="siffranere">23</p>
+                </div><!-- vanadin -->
+                
+                <div id="krom" style="display:none">
+                <p class="siffrauppe">52 </p>
+                <p>Krom</p>
+                <p class="siffranere">24</p>
+                </div><!-- krom -->
+                
+                <div id="mangan" style="display:none">
+                <p class="siffrauppe">55 </p>
+                <p>Mangan</p>
+                <p class="siffranere">25</p>
+                </div><!-- mangan -->
+                
+                <div id="järn" style="display:none">
+                <p class="siffrauppe">56 </p>
+                <p>Järn</p>
+                <p class="siffranere">26</p>
+                </div><!-- järn -->
+                
+                <div id="kobolt" style="display:none">
+                <p class="siffrauppe">59 </p>
+                <p>Kobolt</p>
+                <p class="siffranere">27</p>
+                </div><!-- kobolt -->
+                
+                <div id="nickel" style="display:none">
+                <p class="siffrauppe">59 </p>
+                <p>Nickel</p>
+                <p class="siffranere">28</p>
+                </div><!-- nickel -->
+                
+                <div id="koppar" style="display:none">
+                <p class="siffrauppe">64 </p>
+                <p>Koppar</p>
+                <p class="siffranere">29</p>
+                </div><!-- koppar -->
+                
+                <div id="zink" style="display:none">
+                <p class="siffrauppe">65 </p>
+                <p>Zink</p>
+                <p class="siffranere">30</p>
+                </div><!-- zink -->
+                
+                <div id="gallium" style="display:none">
+                <p class="siffrauppe">70 </p>
+                <p>Gallium</p>
+                <p class="siffranere">31</p>
+                </div><!-- gallium -->
+                
+                <div id="germanium" style="display:none">
+                <p class="siffrauppe">73 </p>
+                <p>Germanium</p>
+                <p class="siffranere">32</p>
+                </div><!-- germanium -->
+                
+                <div id="arsenik" style="display:none">
+                <p class="siffrauppe">75 </p>
+                <p>Arsenik</p>
+                <p class="siffranere">33</p>
+                </div><!-- arsenik -->
+                
+                <div id="selen" style="display:none">
+                <p class="siffrauppe">79 </p>
+                <p>Selen</p>
+                <p class="siffranere">34</p>
+                </div><!-- selen -->
+                
+                <div id="brom" style="display:none">
+                <p class="siffrauppe">80 </p>
+                <p>Brom</p>
+                <p class="siffranere">35</p>
+                </div><!-- brom -->
+                        
+                <div id="krypton" style="display:none">
+                <p class="siffrauppe">84 </p>
+                <p>Krypton</p>
+                <p class="siffranere">36</p>
+                </div><!-- krypton -->
+                
+                <div id="rubidium" style="display:none">
+                <p class="siffrauppe">85 </p>
+                <p>Rubidium</p>
+                <p class="siffranere">37</p>
+                </div><!-- rubidium -->
+                
+                <div id="strontium" style="display:none">
+                <p class="siffrauppe">88 </p>
+                <p>Strontium</p>
+                <p class="siffranere">38</p>
+                </div><!-- strontium -->
+                
+                <div id="yttrium" style="display:none">
+                <p class="siffrauppe">89 </p>
+                <p>Yttrium</p>
+                <p class="siffranere">39</p>
+                </div><!-- yttrium -->
+                
+                <div id="zirkonium" style="display:none">
+                <p class="siffrauppe">91 </p>
+                <p>Zirkonium</p>
+                <p class="siffranere">40</p>
+                </div><!-- zirkonium -->
+                
+                <div id="niob" style="display:none">
+                <p class="siffrauppe">93 </p>
+                <p>Niob</p>
+                <p class="siffranere">41</p>
+                </div><!-- niob -->
+                
+                <div id="molybden" style="display:none">
+                <p class="siffrauppe">96 </p>
+                <p>Molybden</p>
+                <p class="siffranere">42</p>
+                </div><!-- molybden -->
+                
+                <div id="tektenium" style="display:none">
+                <p class="siffrauppe">(98)</p>
+                <p>Teketenium</p>
+                <p class="siffranere">43</p>
+                </div><!-- teknetium -->
+                
+                <div id="rutenium" style="display:none">
+                <p class="siffrauppe">101 </p>
+                <p>Rutenium</p>
+                <p class="siffranere">44</p>
+                </div><!-- rutenium -->
+                
+                <div id="rodium" style="display:none">
+                <p class="siffrauppe">103 </p>
+                <p>Rodium</p>
+                <p class="siffranere">45</p>
+                </div><!-- rodium -->
+                
+                <div id="palladium" style="display:none">
+                <p class="siffrauppe">106 </p>
+                <p>Palladium</p>
+                <p class="siffranere">46</p>
+                </div><!-- palladium -->
+                
+                <div id="silver" style="display:none">
+                <p class="siffrauppe">108 </p>
+                <p>Silver</p>
+                <p class="siffranere">47</p>
+                </div><!-- silver -->
+                
+                <div id="kadmium" style="display:none">
+                <p class="siffrauppe">112 </p>
+                <p>Kadmium</p>
+                <p class="siffranere">48</p>
+                </div><!-- kadmium -->
+                
+                <div id="indium" style="display:none">
+                <p class="siffrauppe">115 </p>
+                <p>Indium</p>
+                <p class="siffranere">49</p>
+                </div><!-- indium -->
+                
+                <div id="tenn" style="display:none">
+                <p class="siffrauppe">119 </p>
+                <p>Tenn</p>
+                <p class="siffranere">50</p>
+                </div><!-- tenn -->
+                
+                <div id="antimon" style="display:none">
+                <p class="siffrauppe">122 </p>
+                <p>Antimon</p>
+                <p class="siffranere">51</p>
+                </div><!-- antimon -->
+                
+                <div id="tellur" style="display:none">
+                <p class="siffrauppe">128</p>
+                <p>Tellur</p>
+                <p class="siffranere">52</p>
+                </div><!-- tellur -->
+                
+                <div id="jod" style="display:none">
+                <p class="siffrauppe">127 </p>
+                <p>Jod</p>
+                <p class="siffranere">53</p>
+                </div><!-- jod -->
+                
+                <div id="xenon" style="display:none">
+                <p class="siffrauppe">131</p>
+                <p>Xenon</p>
+                <p class="siffranere">54</p>
+                </div><!-- xenon -->
+                
+                <div id="cesium" style="display:none">
+                <p class="siffrauppe">133</p>
+                <p>Cesium</p>
+                <p class="siffranere">55</p>
+                </div><!-- cesium -->
+                
+                <div id="barium" style="display:none">
+                <p class="siffrauppe">137</p>
+                <p>Barium</p>
+                <p class="siffranere">56</p>
+                </div><!-- barium -->
+                
+                <div id="lantan" style="display:none">
+                <p class="siffrauppe">139</p>
+                <p>Lantan</p>
+                <p class="siffranere">57</p>
+                </div><!-- lantan -->
+                
+                <div id="cerium" style="display:none">
+                <p class="siffrauppe">140</p>
+                <p>Cerium</p>
+                <p class="siffranere">58</p>
+                </div><!-- hafnium -->
+                
+                <div id="praseodym" style="display:none">
+                <p class="siffrauppe">141</p>
+                <p>Praseodym</p>
+                <p class="siffranere">59</p>
+                </div><!-- praseodym -->
+                
+                <div id="neodym" style="display:none">
+                <p class="siffrauppe">144</p>
+                <p>Neodym</p>
+                <p class="siffranere">60</p>
+                </div><!-- neodym -->
+                
+                <div id="prometium" style="display:none">
+                <p class="siffrauppe">(145)</p>
+                <p>Prometium</p>
+                <p class="siffranere">61</p>
+                </div><!-- prometium -->
+                
+                <div id="samarium" style="display:none">
+                <p class="siffrauppe">150</p>
+                <p>Samarium</p>
+                <p class="siffranere">62</p>
+                </div><!-- samarium -->
+                
+                <div id="europium" style="display:none">
+                <p class="siffrauppe">152</p>
+                <p>Europium</p>
+                <p class="siffranere">63</p>
+                </div><!-- europium -->
+                
+                <div id="gadolinium" style="display:none">
+                <p class="siffrauppe">157</p>
+                <p>Gadolinium</p>
+                <p class="siffranere">64</p>
+                </div><!-- gadolinium -->
+                
+                <div id="terbium" style="display:none">
+                <p class="siffrauppe">159</p>
+                <p>Terbium</p>
+                <p class="siffranere">65</p>
+                </div><!-- terbium -->
+                
+                <div id="dysprosium" style="display:none">
+                <p class="siffrauppe">163</p>
+                <p>Dysprosium</p>
+                <p class="siffranere">66</p>
+                </div><!-- dysprosium -->
+                
+                <div id="holmium" style="display:none">
+                <p class="siffrauppe">165</p>
+                <p>Holmium</p>
+                <p class="siffranere">67</p>
+                </div><!-- holmium -->
+                
+                <div id="erbium" style="display:none">
+                <p class="siffrauppe">167</p>
+                <p>Erbium</p>
+                <p class="siffranere">68</p>
+                </div><!-- erbium -->
+                
+                <div id="tulium" style="display:none">
+                <p class="siffrauppe">169</p>
+                <p>Tulium</p>
+                <p class="siffranere">69</p>
+                </div><!-- tulium -->
+                
+                <div id="ytterbium" style="display:none">
+                <p class="siffrauppe">173</p>
+                <p>Ytterbium</p>
+                <p class="siffranere">70</p>
+                </div><!-- ytterbium -->
+                
+                <div id="lutetium" style="display:none">
+                <p class="siffrauppe">175</p>
+                <p>Lutetium</p>
+                <p class="siffranere">71</p>
+                </div><!-- lutetium -->
+                
+                <div id="hafnium" style="display:none">
+                <p class="siffrauppe">178</p>
+                <p>Hafnium</p>
+                <p class="siffranere">72</p>
+                </div><!-- hafnium -->
+                
+                <div id="tantal" style="display:none">
+                <p class="siffrauppe">181</p>
+                <p>Tantal</p>
+                <p class="siffranere">73</p>
+                </div><!-- tantal -->
+                
+                <div id="tungsten" style="display:none">
+                <p class="siffrauppe">184</p>
+                <p>Tungsten</p>
+                <p class="siffranere">74</p>
+                </div><!-- tungsten -->
+                
+                <div id="rhenium" style="display:none">
+                <p class="siffrauppe">186</p>
+                <p>Rhenium</p>
+                <p class="siffranere">75</p>
+                </div><!-- rhenium -->
+                
+                <div id="osmium" style="display:none">
+                <p class="siffrauppe">190</p>
+                <p>Osmium</p>
+                <p class="siffranere">76</p>
+                </div><!-- osmium -->
+                
+                <div id="iridium" style="display:none">
+                <p class="siffrauppe">192</p>
+                <p>Iridium</p>
+                <p class="siffranere">77</p>
+                </div><!-- iridium -->
+                
+                <div id="platina" style="display:none">
+                <p class="siffrauppe">195</p>
+                <p>Platina</p>
+                <p class="siffranere">78</p>
+                </div><!-- platina -->
+                
+                <div id="guld" style="display:none">
+                <p class="siffrauppe">197</p>
+                <p>Guld</p>
+                <p class="siffranere">79</p>
+                </div><!-- guld -->
+                
+                <div id="kvicksilver" style="display:none">
+                <p class="siffrauppe">201</p>
+                <p>Kvicksilver</p>
+                <p class="siffranere">80</p>
+                </div><!-- kvicksilver -->
+                
+                <div id="tallium" style="display:none">
+                <p class="siffrauppe">204</p>
+                <p>Tallium</p>
+                <p class="siffranere">81</p>
+                </div><!-- tallium -->
+                
+                <div id="bly" style="display:none">
+                <p class="siffrauppe">207</p>
+                <p>Bly</p>
+                <p class="siffranere">82</p>
+                </div><!-- bly -->
+                
+                <div id="vismut" style="display:none">
+                <p class="siffrauppe">209</p>
+                <p>Vismut</p>
+                <p class="siffranere">83</p>
+                </div><!-- vismut -->
+                
+                <div id="polonium" style="display:none">
+                <p class="siffrauppe">(209)</p>
+                <p>Polonium</p>
+                <p class="siffranere">84</p>
+                </div><!-- polonium -->
+                
+                <div id="astat" style="display:none">
+                <p class="siffrauppe">(210)</p>
+                <p>Astat</p>
+                <p class="siffranere">85</p>
+                </div><!-- astat -->
+                
+                <div id="radon" style="display:none">
+                <p class="siffrauppe">(222)</p>
+                <p>Radon</p>
+                <p class="siffranere">86</p>
+                </div><!-- radon -->
+                
+                <div id="francium" style="display:none">
+                <p class="siffrauppe">(223)</p>
+                <p>Francium</p>
+                <p class="siffranere">87</p>
+                </div><!-- francium -->
+                
+                <div id="radium" style="display:none">
+                <p class="siffrauppe">(226)</p>
+                <p>Radium</p>
+                <p class="siffranere">88</p>
+                </div><!-- radium -->
+                
+                <div id="aktnium" style="display:none">
+                <p class="siffrauppe">(227)</p>
+                <p>Aktnium</p>
+                <p class="siffranere">89</p>
+                </div><!-- radium -->
+                
+                <div id="torium" style="display:none">
+                <p class="siffrauppe">232</p>
+                <p>Torium</p>
+                <p class="siffranere">90</p>
+                </div><!-- torium -->
+                
+                 <div id="protaktinium" style="display:none">
+                <p class="siffrauppe">231</p>
+                <p>Protaktnium</p>
+                <p class="siffranere">91</p>
+                </div><!-- protaktnium -->
+                
+                 <div id="uran" style="display:none">
+                <p class="siffrauppe">238</p>
+                <p>Uran</p>
+                <p class="siffranere">92</p>
+                </div><!-- uran -->
+                
+                 <div id="neptunium" style="display:none">
+                <p class="siffrauppe">(237)</p>
+                <p>Neptunium</p>
+                <p class="siffranere">93</p>
+                </div><!-- neptunium -->
+                
+                 <div id="plutonium" style="display:none">
+                <p class="siffrauppe">(244)</p>
+                <p>Plutonium</p>
+                <p class="siffranere">94</p>
+                </div><!-- plutonium -->
+                
+                <div id="americium" style="display:none">
+                <p class="siffrauppe">(243)</p>
+                <p>Americium</p>
+                <p class="siffranere">95</p>
+                </div><!-- americium -->
+                
+                 <div id="curium" style="display:none">
+                <p class="siffrauppe">(247)</p>
+                <p>Curium</p>
+                <p class="siffranere">96</p>
+                </div><!-- curium -->
+                
+                 <div id="berkelium" style="display:none">
+                <p class="siffrauppe">(247)</p>
+                <p>Berkelium</p>
+                <p class="siffranere">97</p>
+                </div><!-- berkelium -->
+                
+                 <div id="californium" style="display:none">
+                <p class="siffrauppe">(251)</p>
+                <p>Californium</p>
+                <p class="siffranere">98</p>
+                </div><!-- californium -->
+                
+                 <div id="einsteinium" style="display:none">
+                <p class="siffrauppe">(252)</p>
+                <p>Einsteinium</p>
+                <p class="siffranere">99</p>
+                </div><!-- einsteinium -->
+                
+                 <div id="fermium" style="display:none">
+                <p class="siffrauppe">(257)</p>
+                <p>Fermium</p>
+                <p class="siffranere">100</p>
+                </div><!-- fermium -->
+                
+                 <div id="mendelevium" style="display:none">
+                <p class="siffrauppe">(258)</p>
+                <p>Mendelevium</p>
+                <p class="siffranere">101</p>
+                </div><!-- mendelevium -->
+                
+                 <div id="nobelium" style="display:none">
+                <p class="siffrauppe">(259)</p>
+                <p>Nobelium</p>
+                <p class="siffranere">102</p>
+                </div><!-- nobelium -->
+                
+                 <div id="lawrencium" style="display:none">
+                <p class="siffrauppe">(262)</p>
+                <p>Lawrencium</p>
+                <p class="siffranere">103</p>
+                </div><!-- lawrencium -->
+                
+                <div id="rutherfordium" style="display:none">
+                <p class="siffrauppe">(267)</p>
+                <p>Rutherfordium</p>
+                <p class="siffranere">104</p>
+                </div><!-- rutherfordium -->
+                
+                <div id="dubnium" style="display:none">
+                <p class="siffrauppe">(268)</p>
+                <p>Dubnium</p>
+                <p class="siffranere">105</p>
+                </div><!-- dubnium -->
+                
+                <div id="seaborgium" style="display:none">
+                <p class="siffrauppe">(269)</p>
+                <p>Seaborgium</p>
+                <p class="siffranere">106</p>
+                </div><!-- seaborgium -->
+                
+                <div id="bohrium" style="display:none">
+                <p class="siffrauppe">(270) </p>
+                <p>Bohrium</p>
+                <p class="siffranere">107</p>
+                </div><!-- bohrium -->
+                
+                <div id="hassium" style="display:none">
+                <p class="siffrauppe">(269) </p>
+                <p>Hassium</p>
+                <p class="siffranere">108</p>
+                </div><!-- hassium -->
+                
+                <div id="meitnerium" style="display:none">
+                <p class="siffrauppe">(278) </p>
+                <p>Meitnerium</p>
+                <p class="siffranere">109</p>
+                </div><!-- meitnerium -->
+                
+                <div id="darmstadium" style="display:none">
+                <p class="siffrauppe">(281) </p>
+                <p>Darmstadtium	</p>
+                <p class="siffranere">110</p>
+                </div><!-- darmstadium -->
+                
+              	<div id="röntgenium" style="display:none">
+                <p class="siffrauppe">(282) </p>
+                <p>Röntgenium</p>
+                <p class="siffranere">111</p>
+                </div><!-- röntgenium -->
+               
+                <div id="copernicium" style="display:none">
+                <p class="siffrauppe">(285) </p>
+                <p>Copernicium</p>
+                <p class="siffranere">112</p>
+                </div><!-- copernicium -->
+                
+                <div id="ununtritium" style="display:none">
+                <p class="siffrauppe">(286) </p>
+                <p>Nihonium</p>
+                <p class="siffranere">113</p>
+                </div><!-- ununtritium -->
+                
+                <div id="flerovium" style="display:none">
+                <p class="siffrauppe">(289) </p>
+                <p>Flevorium</p>
+                <p class="siffranere">114</p>
+                </div><!-- flerovium -->
+                
+                <div id="ununpentium" style="display:none">
+                <p class="siffrauppe">(289) </p>
+                <p>Moskovium</p>
+                <p class="siffranere">115</p>	
+                </div><!-- ununpentium -->
+                
+                <div id="livermorium" style="display:none">
+                <p class="siffrauppe">(293) </p>
+                <p>Livermorium</p>
+                <p class="siffranere">116</p>	
+                </div><!-- livermorium -->
+                
+                <div id="ununseptium" style="display:none">
+                <p class="siffrauppe">(294) </p>
+                <p>Tenness</p>
+                <p class="siffranere">117</p>	
+                </div><!-- ununseptium -->
+                
+                <div id="ununoctium" style="display:none">
+                <p class="siffrauppe">(294) </p>
+                <p>Oganesson</p>
+                <p class="siffranere">118</p>	
+                </div><!-- ununoctium-->
+                
+             
+                
+            </div><!--boxmednamn-->
+                        
+                        
+                        
+                        
+                        </td>
+                       <!-- <td rowspan="3" colspan="5" class="borderblock"></td> -->
+                        <td colspan="5" class="borderblock"></td> <!-- Gör att en td blir 16boxar lång för att skapa tomrummet mellan de två ämnena i period 1-->
+                        
+                        <td id="nr2" class="Adelgaser Gas"
+                        onmouseover="cursor('helium', 'nr2')" 
+                        onmouseout="document.getElementById('helium').style.display = 'none';"
+                        onClick="window.open('Helium.html' ,'_self')">
+                        He</td> 
+                       
+                   		</tr><!-- Här avslutas K-skalet -->
+                        
+                   	<tr><!-- Här börjar L-skalet -->
+                        <td id="nr3" class="Alkalimetaller"
+                        onmouseover="cursor('litium', 'nr3')" 
+                        onmouseout="document.getElementById('litium').style.display = 'none';"
+                        onClick="window.open('Litium.html' ,'_self')">
+                        Li</td>
+                       
+                        <td id="nr4" class="Jordart"
+                        onmouseover="cursor('beryllium', 'nr4')" 
+                        onmouseout="document.getElementById('beryllium').style.display = 'none';"
+                        onClick="window.open('Beryllium.html' ,'_self')">
+                        Be</td>
+                        
+                        
+                        
+                        <td id="nr5" class="Halv"
+                        onmouseover="cursor('bor', 'nr5')" 
+                        onmouseout="document.getElementById('bor').style.display = 'none';"
+                        onClick="window.open('Bor.html' ,'_self')">
+                        B</td>
+                        
+                        <td id="nr6" class="Ickemetaller"
+                        onmouseover="cursor('kol', 'nr6')" 
+                        onmouseout="document.getElementById('kol').style.display = 'none';"
+                        onClick="window.open('Kol.html' ,'_self')">
+                        C</td>
+                        
+                        <td id="nr7" class="Ickemetaller Gas"
+                        onmouseover="cursor('kväve', 'nr7')" 
+                        onmouseout="document.getElementById('kväve').style.display = 'none';"
+                        onClick="window.open('Kväve.html' ,'_self')">
+                        N</td>
+                        
+                        <td id="nr8" class="Ickemetaller Gas"
+                        onmouseover="cursor('syre', 'nr8')" 
+                        onmouseout="document.getElementById('syre').style.display = 'none';"
+                        onClick="window.open('Syre.html' ,'_self')">
+                       O</td>
+                        
+                        <td id="nr9" class="Halogener Gas"
+                        onmouseover="cursor('fluor', 'nr9')" 
+                        onmouseout="document.getElementById('fluor').style.display = 'none';"
+                        onClick="window.open('Fluor.html' ,'_self')">
+                        F</td>
+                        
+                        <td id="nr10" class="Adelgaser Gas"
+                        onmouseover="cursor('neon', 'nr10')" 
+                        onmouseout="document.getElementById('neon').style.display = 'none';"
+                        onClick="window.open('Neon.html' ,'_self')">
+                       	Ne</td>
+                        
+                        </tr><!-- Här avslutas L-skalet -->
+                          
+                   	<tr><!-- Här börjar M-skalet -->
+                        
+                        <td id="nr11" class="Alkalimetaller"
+                        onmouseover="cursor('natrium', 'nr11')" 
+                        onmouseout="document.getElementById('natrium').style.display = 'none';"
+                        onClick="window.open('Natrium.html' ,'_self')">
+                        Na</td>
+                        
+                        <td id="nr12" class="Jordart"
+                        onmouseover="cursor('magnesium', 'nr12')" 
+                        onmouseout="document.getElementById('magnesium').style.display = 'none';"
+                        onClick="window.open('Magnesium.html' ,'_self')">
+                        Mg</td>
+                        
+                       
+                        
+                        <td id="nr13" class="Post"
+                        onmouseover="cursor('aluminium', 'nr13')" 
+                        onmouseout="document.getElementById('aluminium').style.display = 'none';"
+                        onClick="window.open('Aluminium.html' ,'_self')">
+                        Al</td>
+                       
+                        <td id="nr14" class="Halv" 
+                        onmouseover="cursor('kisel', 'nr14')" 
+                        onmouseout="document.getElementById('kisel').style.display = 'none';"
+                        onClick="window.open('Kisel.html' ,'_self')">
+                        Si</td>
+                        
+                        <td id="nr15" class="Ickemetaller" 
+                        onmouseover="cursor('fosfor', 'nr15')" 
+                        onmouseout="document.getElementById('fosfor').style.display = 'none';"
+                        onClick="window.open('Fosfor.html' ,'_self')">
+                        P</td>
+                        
+                        <td id="nr16" class="Ickemetaller" 
+                        onmouseover="cursor('svavel', 'nr16')" 
+                        onmouseout="document.getElementById('svavel').style.display = 'none';"
+                        onClick="window.open('Svavel.html' ,'_self')">
+                        S</td>
+                        
+                        <td id="nr17" class="Halogener Gas" 
+                        onmouseover="cursor('klor', 'nr17')" 
+                        onmouseout="document.getElementById('klor').style.display = 'none';"
+                        onClick="window.open('Klor.html' ,'_self')">
+                        Cl</td>
+                        
+                        <td id="nr18" class="Adelgaser Gas" 
+                        onmouseover="cursor('argon', 'nr18')" 
+                        onmouseout="document.getElementById('argon').style.display = 'none';"
+                        onClick="window.open('Argon.html' ,'_self')">
+                        Ar</td>
+                      
+                        </tr><!-- Här avslutas M-skalet -->
+                          
+                    <tr><!-- Här börjar N-skalet -->
+                        <td id="nr19" class="Alkalimetaller" 
+                        onmouseover="cursor('kalium', 'nr19')" 
+                        onmouseout="document.getElementById('kalium').style.display = 'none';"
+                        onClick="window.open('Kalium.html' ,'_self')">
+                        K</td>
+                        
+                        <td id="nr20" class="Jordart" 
+                        onmouseover="cursor('kalcium', 'nr20')" 
+                        onmouseout="document.getElementById('kalcium').style.display = 'none';"
+                        onClick="window.open('Kalcium.html' ,'_self')">
+                        Ca</td>
+                        
+                        <td id="nr21" class="Overgang" 
+                        onmouseover="cursor('scandium', 'nr21')" 
+                        onmouseout="document.getElementById('scandium').style.display = 'none';"
+                        onClick="window.open('Syre.html' ,'_self')">
+                        Sc</td>
+                        
+                        <td id="nr22" class="Overgang" 
+                        onmouseover="cursor('titan', 'nr22')" 
+                        onmouseout="document.getElementById('titan').style.display = 'none';"
+                        onClick="window.open('Titan.html' ,'_self')">
+                        Ti</td>
+                        
+                        <td id="nr23" class="Overgang" 
+                        onmouseover="cursor('vanadin', 'nr23')" 
+                        onmouseout="document.getElementById('vanadin').style.display = 'none';"
+                        onClick="window.open('Vanadin.html' ,'_self')">
+                        V</td>
+                        
+                        <td id="nr24" class="Overgang" 
+                        onmouseover="cursor('krom', 'nr24')"  
+                        onmouseout="document.getElementById('krom').style.display = 'none';"
+                        onClick="window.open('Krom.html' ,'_self')">
+                        Cr</td>
+                        
+                        <td id="nr25" class="Overgang" 
+                        onmouseover="cursor('mangan', 'nr25')"  
+                        onmouseout="document.getElementById('mangan').style.display = 'none';"
+                        onClick="window.open('Mangan.html' ,'_self')">
+                       	Mn</td>
+                        
+                        <td id="nr26" class="Overgang" 
+                        onmouseover="cursor('järn', 'nr26')"  
+                        onmouseout="document.getElementById('järn').style.display = 'none';"
+                        onClick="window.open('Jarn.html' ,'_self')">
+                        Fe</td>
+                        
+                        <td id="nr27" class="Overgang" 
+                        onmouseover="cursor('kobolt', 'nr27')"  
+                        onmouseout="document.getElementById('kobolt').style.display = 'none';"
+                        onClick="window.open('Kobolt.html' ,'_self')">
+                        Co</td>
+                        
+                        <td id="nr28" class="Overgang" 
+                        onmouseover="cursor('nickel', 'nr28')"  
+                        onmouseout="document.getElementById('nickel').style.display = 'none';"
+                        onClick="window.open('Nickel.html' ,'_self')">
+                        Ni</td>
+                        
+                        <td id="nr29" class="Overgang" 
+                        onmouseover="cursor('koppar', 'nr29')"  
+                        onmouseout="document.getElementById('koppar').style.display = 'none';"
+                        onClick="window.open('Koppar.html' ,'_self')">
+                        Cu</td>
+                        
+                        <td id="nr30" class="Overgang" 
+                       	onmouseover="cursor('zink', 'nr30')"
+                        onmouseout="document.getElementById('zink').style.display = 'none';"
+                        onClick="window.open('Zink.html' ,'_self')">
+                        Zn</td>
+                        
+                        <td id="nr31" class="Post"
+                        onmouseover="cursor('gallium', 'nr31')" 
+                        onmouseout="document.getElementById('gallium').style.display = 'none';"
+                        onClick="window.open('Gallium.html' ,'_self')">
+                        Ga</td>
+                        
+                        <td id="nr32" class="Halv"
+                        onmouseover="cursor('germanium', 'nr32')" 
+                        onmouseout="document.getElementById('germanium').style.display = 'none';"
+                        onClick="window.open('Germanium.html' ,'_self')">
+                        Ge</td>
+                        
+                        <td id="nr33" class="Halv"
+                        onmouseover="cursor('arsenik', 'nr33')" 
+                        onmouseout="document.getElementById('arsenik').style.display = 'none';"
+                        onClick="window.open('Arsenik.html' ,'_self')">
+                        As</td>
+                        
+                        <td id="nr34" class="Ickemetaller"
+                        onmouseover="cursor('selen', 'nr34')" 
+                        onmouseout="document.getElementById('selen').style.display = 'none';"
+                        onClick="window.open('Selen.html' ,'_self')">
+                        Se</td>
+                        
+                        <td id="nr35" class="Halogener Flytande"
+                        onmouseover="cursor('brom', 'nr35')" 
+                        onmouseout="document.getElementById('brom').style.display = 'none';"
+                        onClick="window.open('Brom.html' ,'_self')">
+                        Br</td>
+                        
+                        <td id="nr36" class="Adelgaser Gas"
+                        onmouseover="cursor('krypton', 'nr36')" 
+                        onmouseout="document.getElementById('krypton').style.display = 'none';"
+                        onClick="window.open('Krypton.html' ,'_self')">
+                        Kr</td>
+                        
+                        </tr><!-- Här avslutas N-skalet -->
+                        
+                    <tr>
+                        <td id="nr37" class="Alkalimetaller"
+                        onmouseover="cursor('rubidium', 'nr37')" 
+                        onmouseout="document.getElementById('rubidium').style.display = 'none';"
+                        onClick="window.open('Rubidium.html' ,'_self')">
+                        Rb</td>
+                        
+                        <td id="nr38" class="Jordart"
+                        onmouseover="cursor('strontium', 'nr38')" 
+                        onmouseout="document.getElementById('strontium').style.display = 'none';"
+                        onClick="window.open('Strontium.html' ,'_self')">
+                        Sr</td>
+                        
+                        <td id="nr39" class="Overgang"
+                        onmouseover="cursor('yttrium', 'nr39')" 
+                        onmouseout="document.getElementById('yttrium').style.display = 'none';"
+                        onClick="window.open('Yttrium.html' ,'_self')">
+                        Y</td>
+                        
+                        <td id="nr40" class="Overgang"
+                        onmouseover="cursor('zirkonium', 'nr39')" 
+                        onmouseout="document.getElementById('zirkonium').style.display = 'none';"
+                        onClick="window.open('Zirkonium.html' ,'_self')">
+                        Zr</td>
+                        
+                        <td id="nr41" class="Overgang"
+                        onmouseover="cursor('niob', 'nr41')" 
+                        onmouseout="document.getElementById('niob').style.display = 'none';"
+                        onClick="window.open('Niob.html' ,'_self')">
+                        Nb</td>
+                        
+                        <td id="nr42" class="Overgang"
+                        onmouseover="cursor('molybden', 'nr42')" 
+                        onmouseout="document.getElementById('molybden').style.display = 'none';"
+                        onClick="window.open('Molybden.html' ,'_self')">
+                        Mo</td>
+                        
+                       	<td id="nr43" class="Overgang Syntetisk"
+                        onmouseover="cursor('tektenium', 'nr43')" 
+                        onmouseout="document.getElementById('tektenium').style.display = 'none';"
+                        onClick="window.open('Tektenium.html' ,'_self')">
+                        Tc</td>
+                        
+                        <td id="nr44" class="Overgang"
+                        onmouseover="cursor('rutenium', 'nr44')" 
+                        onmouseout="document.getElementById('rutenium').style.display = 'none';"
+                        onClick="window.open('Ruthenium.html' ,'_self')">
+                        Ru</td>
+                        
+                        <td id="nr45" class="Overgang"
+                        onmouseover="cursor('rodium', 'nr45')" 
+                        onmouseout="document.getElementById('rodium').style.display = 'none';"
+                        onClick="window.open('Rodium.html' ,'_self')">
+                        Rh</td>
+                        
+                        <td id="nr46" class="Overgang"
+                        onmouseover="cursor('palladium', 'nr46')" 
+                        onmouseout="document.getElementById('palladium').style.display = 'none';"
+                        onClick="window.open('Palladium.html' ,'_self')">
+                        Pd</td>
+                        
+                        <td id="nr47" class="Overgang"
+                        onmouseover="cursor('silver', 'nr47')" 
+                        onmouseout="document.getElementById('silver').style.display = 'none';"
+                        onClick="window.open('silver.html' ,'_self')">
+                        Ag</td>
+                        
+                        <td id="nr48" class="Overgang"
+                        onmouseover="cursor('kadmium', 'nr48')" 
+                        onmouseout="document.getElementById('kadmium').style.display = 'none';"
+                        onClick="window.open('Kadmium.html' ,'_self')">
+                        Cd</td>
+                        
+                        <td id="nr49" class="Post"
+                        onmouseover="cursor('indium', 'nr49')" 
+                        onmouseout="document.getElementById('indium').style.display = 'none';"
+                        onClick="window.open('Indium.html' ,'_self')">
+                        In</td>
+                        
+                        <td id="nr50" class="Post" 
+                        onmouseover="cursor('tenn', 'nr50')" 
+                        onmouseout="document.getElementById('tenn').style.display = 'none';"
+                        onClick="window.open('Tenn.html' ,'_self')">
+                        Sn</td>
+                        
+                        <td id="nr51" class="Halv" 
+                        onmouseover="cursor('antimon', 'nr51')" 
+                        onmouseout="document.getElementById('antimon').style.display = 'none';"
+                        onClick="window.open('Antimon.html' ,'_self')">
+                        Sb</td>
+                        
+                        <td id="nr52" class="Halv" 
+                        onmouseover="cursor('tellur', 'nr52')" 
+                        onmouseout="document.getElementById('tellur').style.display = 'none';"
+                        onClick="window.open('Tellur.html' ,'_self')">
+                        Te</td>
+                        
+                        <td id="nr53" class="Halogener Gas" 
+                        onmouseover="cursor('jod', 'nr53')" 
+                        onmouseout="document.getElementById('jod').style.display = 'none';"
+                        onClick="window.open('Jod.html' ,'_self')">
+                        I</td>
+                        
+                        <td id="nr54" class="Adelgaser Gas" 
+                        onmouseover="cursor('xenon', 'nr54')" 
+                        onmouseout="document.getElementById('xenon').style.display = 'none';"
+                        onClick="window.open('Xenon.html' ,'_self')">
+                        Xe</td>
+                        
+                        </tr><!-- Här avslutas O-skalet -->
+                        
+                    <tr>
+                        
+                        <td id="nr55" class="Alkalimetaller" 
+                        onmouseover="cursor('cesium', 'nr55')" 
+                        onmouseout="document.getElementById('cesium').style.display = 'none';"
+                        onClick="window.open('Cesium.html' ,'_self')">
+                        Cs</td>
+                        
+                        <td id="nr56" class="Jordart"
+                        onmouseover="cursor('barium', 'nr56')" 
+                        onmouseout="document.getElementById('barium').style.display = 'none';"
+                        onClick="window.open('Barium.html' ,'_self')">
+                        Ba</td>
+                        
+                        <td class="Lant">*</td>
+                        <td id="nr72" class="Overgang"
+                        onmouseover="cursor('hafnium', 'nr72')" 
+                        onmouseout="document.getElementById('hafnium').style.display = 'none';"
+                        onClick="window.open('Hafnium.html' ,'_self')">
+                        Hf</td>
+                        
+                        <td id="nr73" class="Overgang"
+                        onmouseover="cursor('tantal', 'nr73')" 
+                        onmouseout="document.getElementById('tantal').style.display = 'none';"
+                        onClick="window.open('Tantal.html' ,'_self')">
+                        Ta</td>
+                        
+                        <td id="nr74" class="Overgang" 
+                        onmouseover="cursor('tungsten', 'nr74')" 
+                        onmouseout="document.getElementById('tungsten').style.display = 'none';"
+                        onClick="window.open('Wolfram.html' ,'_self')">
+                        W</td>
+                        
+                        <td id="nr75" class="Overgang" 
+                        onmouseover="cursor('rhenium', 'nr75')" 
+                        onmouseout="document.getElementById('rhenium').style.display = 'none';"
+                        onClick="window.open('Rhenium.html' ,'_self')">
+                        Re</td>
+                        
+                        <td id="nr76" class="Overgang" 
+                        onmouseover="cursor('osmium', 'nr76')" 
+                        onmouseout="document.getElementById('osmium').style.display = 'none';"
+                        onClick="window.open('Osmium.html' ,'_self')">
+                        Os</td>
+                        
+                        <td id="nr77" class="Overgang" 
+                        onmouseover="cursor('iridium', 'nr77')" 
+                        onmouseout="document.getElementById('iridium').style.display = 'none';"
+                        onClick="window.open('Iridium.html' ,'_self')">
+                        Ir</td>
+                        
+                        <td id="nr78" class="Overgang" 
+                        onmouseover="cursor('platina', 'nr78')" 
+                        onmouseout="document.getElementById('platina').style.display = 'none';"
+                        onClick="window.open('Platina.html' ,'_self')">
+                        Pt</td>
+                        
+                        <td id="nr79" class="Overgang" 
+                        onmouseover="cursor('guld', 'nr79')" 
+                        onmouseout="document.getElementById('guld').style.display = 'none';"
+                        onClick="window.open('Guld.html' ,'_self')">
+                        Au</td>
+                        
+                        <td id="nr80" class="Overgang Flytande"
+                        onmouseover="cursor('kvicksilver', 'nr80')" 
+                        onmouseout="document.getElementById('kvicksilver').style.display = 'none';"
+                        onClick="window.open('Kvicksilver.html' ,'_self')">
+                        Hg</td>
+                        
+                        <td id="nr81" class="Post" 
+                        onmouseover="cursor('tallium', 'nr81')" 
+                        onmouseout="document.getElementById('tallium').style.display = 'none';"
+                        onClick="window.open('Tallium.html' ,'_self')">
+                        Tl</td>
+                        
+                        <td id="nr82" class="Post"
+                        onmouseover="cursor('bly', 'nr82')" 
+                        onmouseout="document.getElementById('bly').style.display = 'none';"
+                        onClick="window.open('Bly.html' ,'_self')">
+                        Pb</td>
+                        
+                        <td id="nr83" class="Post"
+                        onmouseover="cursor('vismut', 'nr83')" 
+                        onmouseout="document.getElementById('vismut').style.display = 'none';"
+                        onClick="window.open('Vismut.html' ,'_self')">
+                        Bi</td>
+                        
+                        <td id="nr84" class="Halv rest"
+                        onmouseover="cursor('polonium', 'nr84')" 
+                        onmouseout="document.getElementById('polonium').style.display = 'none';"
+                        onClick="window.open('Polonium.html' ,'_self')">
+                        Po</td>
+                        
+                        <td id="nr85" class="Halogener rest" 
+                        onmouseover="cursor('astat', 'nr85')" 
+                        onmouseout="document.getElementById('astat').style.display = 'none';"
+                        onClick="window.open('Astat.html' ,'_self')">
+                        At</td>
+                        
+                        <td id="nr86" class="Adelgaser rest" 
+                        onmouseover="cursor('radon', 'nr86')" 
+                        onmouseout="document.getElementById('radon').style.display = 'none';"
+                        onClick="window.open('Radon.html' ,'_self')">
+                        <span class="Gas">Rn</span></td>
+                    
+                        </tr><!-- Här avslutas P-skalet -->
+                    
+                    <tr>
+                        <td id="nr87" class="Alkalimetaller rest"
+                        onmouseover="cursor('francium', 'nr87')" 
+                        onmouseout="document.getElementById('francium').style.display = 'none';"
+                        onClick="window.open('Francium.html' ,'_self')">
+                        Fr</td>
+                       
+                        <td id="nr88" class="Jordart rest"
+                        onmouseover="cursor('radium', 'nr88')" 
+                        onmouseout="document.getElementById('radium').style.display = 'none';"
+                        onClick="window.open('Radium.html' ,'_self')">
+                        Ra</td>
+                        
+                        
+                        <td class="Actnid">**</td>
+                        
+                        <td id="nr104" class="Overgang Syntetisk"
+                        onmouseover="cursor('rutherfordium', 'nr104')" 
+                        onmouseout="document.getElementById('rutherfordium').style.display = 'none';"
+                        onClick="window.open('Rutherfordium.html' ,'_self')">
+                        Rf</td>
+                        
+                        <td id="nr105" class="Overgang Syntetisk"
+                        onmouseover="cursor('dubnium', 'nr105')" 
+                        onmouseout="document.getElementById('dubnium').style.display = 'none';"
+                        onClick="window.open('Dubnium.html' ,'_self')">
+                        Db</td>
+                        
+                        <td id="nr106" class="Overgang Syntetisk"
+                        onmouseover="cursor('seaborgium', 'nr106')" 
+                        onmouseout="document.getElementById('seaborgium').style.display = 'none';"
+                        onClick="window.open('Seaborgium.html' ,'_self')">
+                        Sg</td>
+                        
+                        <td id="nr107" class="Overgang Syntetisk"
+                        onmouseover="cursor('bohrium', 'nr107')" 
+                        onmouseout="document.getElementById('bohrium').style.display = 'none';"
+                        onClick="window.open('Bohrium.html' ,'_self')">
+                        Bh</td>
+                        
+                        <td id="nr108" class="Overgang Syntetisk"
+                        onmouseover="cursor('hassium', 'nr108')" 
+                        onmouseout="document.getElementById('hassium').style.display = 'none';"
+                        onClick="window.open('Hassium.html' ,'_self')">
+                        Hs</td>
+                        
+                        <td id="nr109" class="Overgang Syntetisk"
+                        onmouseover="cursor('meitnerium', 'nr109')" 
+                        onmouseout="document.getElementById('meitnerium').style.display = 'none';"
+                        onClick="window.open('Meitnerium.html' ,'_self')">
+                        Mt</td>
+                        
+                        
+                        <td id="nr110" class="Overgang Syntetisk"
+                        onmouseover="cursor('darmstadium', 'nr110')" 
+                        onmouseout="document.getElementById('darmstadium').style.display = 'none';"
+                        onClick="window.open('Darmstadtium.html' ,'_self')">
+                        Ds</td>
+                        
+                        <td id="nr111" class="Overgang Syntetisk"
+                        onmouseover="cursor('röntgenium', 'nr111')" 
+                        onmouseout="document.getElementById('röntgenium').style.display = 'none';"
+                        onClick="window.open('Röntgenium.html' ,'_self')">
+                        Rg</td>
+                        
+                        <td id="nr112" class="Overgang Syntetisk"
+                        onmouseover="cursor('copernicium', 'nr112')" 
+                        onmouseout="document.getElementById('copernicium').style.display = 'none';"
+                        onClick="window.open('Copernicium.html' ,'_self')">
+                        Cn</td>
+                        
+                        <td id="nr113" class="Syntetisk oidentifierad"
+                        onmouseover="cursor('ununtritium', 'nr113')" 
+                        onmouseout="document.getElementById('ununtritium').style.display = 'none';"
+                        onClick="window.open('Ununtritium.html' ,'_self')">
+                        Nh</td>
+                        
+                        <td id="nr114" class="Post Syntetisk" 
+                        onmouseover="cursor('flerovium', 'nr114')" 
+                        onmouseout="document.getElementById('flerovium').style.display = 'none';"
+                        onClick="window.open('Flerovium.html' ,'_self')">
+                        Fl</td>
+                        
+                        <td id="nr115" class="Syntetisk oidentifierad"
+                        onmouseover="cursor('ununpentium', 'nr115')" 
+                        onmouseout="document.getElementById('ununpentium').style.display = 'none';"
+                        onClick="window.open('Ununpentium.html' ,'_self')">
+                        Mc</td>
+                        
+                        <td id="nr116" class="Syntetisk oidentifierad"
+                        onmouseover="cursor('livermorium', 'nr116')" 
+                        onmouseout="document.getElementById('livermorium').style.display = 'none';"
+                        onClick="window.open('Livermorium.html' ,'_self')">
+                        Lv</td>
+                        
+                        <td id="nr117" class="Syntetisk oidentifierad"
+                        onmouseover="cursor('ununseptium', 'nr117')" 
+                        onmouseout="document.getElementById('ununseptium').style.display = 'none';"
+                        onClick="window.open('Ununseptium.html' ,'_self')">
+                        Ts</td>
+                        
+                        <td id="nr118" class="Adelgaser Syntetisk" 
+                        onmouseover="cursor('ununoctium', 'nr118')" 
+                        onmouseout="document.getElementById('ununoctium').style.display = 'none';"
+                        onClick="window.open('Ununoctium.html' ,'_self')">
+                        Og</td>
+                        
+                        </tr><!-- Här avslutas Q-skalet -->
+            </table>
+                     
+    
+    		</div><!--systemtop -->
+    		<div id="systembottom"> <!-- Tabell för lantanoiderna och aktniderna som oftast placeras nedanför-->
+                <table class="lantact">
+                	<tr>
+                        <td id="nr57" class="Lant"
+                        onmouseover="cursor('lantan', 'nr57')"
+                        onmouseout="document.getElementById('lantan').style.display = 'none'"
+                        onClick="window.open('Lantan.html' ,'_self')">
+                        La</td>
+                        
+                        <td id="nr58" class="Lant"
+                        onmouseover="cursor('cerium', 'nr58')"
+                        onmouseout="document.getElementById('cerium').style.display = 'none'"
+                        onClick="window.open('Cerium.html' ,'_self')">
+                        Ce</td>
+                        
+                        <td id="nr59" class="Lant syntetisk"
+                        onmouseover="cursor('praseodym', 'nr59')"
+                        onmouseout="document.getElementById('praseodym').style.display = 'none'"
+                        onClick="window.open('Praseodym.html' ,'_self')">
+                        Pr</td>
+                        
+                        <td id="nr60" class="Lant"
+                        onmouseover="cursor('neodym', 'nr60')"
+                        onmouseout="document.getElementById('neodym').style.display = 'none'"
+                        onClick="window.open('Neodym.html' ,'_self')">
+                        Nd</td>
+                        
+                        <td id="nr61" class="Lant rest"
+                        onmouseover="cursor('prometium', 'nr61')"
+                        onmouseout="document.getElementById('prometium').style.display = 'none'"
+                        onClick="window.open('Prometium.html' ,'_self')">
+                        Pm</td>
+                        
+                        <td id="nr62" class="Lant"
+                        onmouseover="cursor('samarium', 'nr62')"
+                        onmouseout="document.getElementById('samarium').style.display = 'none'"
+                        onClick="window.open('Samarium.html' ,'_self')">
+                        Sm</td>
+                        
+                        <td id="nr63" class="Lant"
+                        onmouseover="cursor('europium', 'nr63')"
+                        onmouseout="document.getElementById('europium').style.display = 'none'"
+                        onClick="window.open('Europium.html' ,'_self')">
+                        Eu</td>
+                        
+                        <td id="nr64" class="Lant"
+                        onmouseover="cursor('gadolinium', 'nr64')"
+                        onmouseout="document.getElementById('gadolinium').style.display = 'none'"
+                        onClick="window.open('Gadolinium.html' ,'_self')">
+                        Gd</td>
+                        
+                        <td id="nr65" class="Lant"
+                        onmouseover="cursor('terbium', 'nr65')"
+                        onmouseout="document.getElementById('terbium').style.display = 'none'"
+                        onClick="window.open('Terbium.html' ,'_self')">
+                        Tb</td>
+                        
+                        <td id="nr66" class="Lant"
+                        onmouseover="cursor('dysprosium', 'nr66')"
+                        onmouseout="document.getElementById('dysprosium').style.display = 'none'"
+                        onClick="window.open('Dysprosium.html' ,'_self')">
+                        Dy</td>
+                        
+                        <td id="nr67" class="Lant"
+                        onmouseover="cursor('holmium', 'nr67')"
+                        onmouseout="document.getElementById('holmium').style.display = 'none'"
+                        onClick="window.open('Holmium.html' ,'_self')">
+                        Ho</td>
+                        
+                        <td id="nr68" class="Lant"
+                        onmouseover="cursor('erbium', 'nr68')"
+                        onmouseout="document.getElementById('erbium').style.display = 'none'"
+                        onClick="window.open('Erbium.html' ,'_self')">
+                        Er</td>
+                        
+                        <td id="nr69" class="Lant"
+                        onmouseover="cursor('tulium', 'nr69')"
+                        onmouseout="document.getElementById('tulium').style.display = 'none'"
+                        onClick="window.open('Tulium.html' ,'_self')">
+                        Tm</td>
+                        
+                        <td id="nr70" class="Lant"
+                        onmouseover="cursor('ytterbium', 'nr70')"
+                        onmouseout="document.getElementById('ytterbium').style.display = 'none'"
+                        onClick="window.open('Ytterbium.html' ,'_self')">
+                        Yb</td>
+                        
+                        <td id="nr71" class="Lant"
+                        onmouseover="cursor('lutetium', 'nr71')"
+                        onmouseout="document.getElementById('lutetium').style.display = 'none'"
+                        onClick="window.open('Lutetium.html' ,'_self')">
+                        Lu</td>
+                        
+                        
+                        </tr>
+                        
+                        <tr>
+                        <td id="nr89" class="Actnid rest" 
+                        onmouseover="cursor('aktnium', 'nr89')"
+                        onmouseout="document.getElementById('aktnium').style.display = 'none'"
+                        onClick="window.open('Aktnium.html' ,'_self')">
+                        Ac</td>
+                        
+                        <td id="nr90" class="Actnid" 
+                        onmouseover="cursor('torium', 'nr90')"
+                        onmouseout="document.getElementById('torium').style.display = 'none'"
+                        onClick="window.open('Torium.html' ,'_self')">
+                        Th</td>
+                        
+                        <td id="nr91" class="Actnid rest" 
+                        onmouseover="cursor('protaktinium', 'nr91')"
+                        onmouseout="document.getElementById('protaktinium').style.display = 'none'"
+                        onClick="window.open('Protaktinium.html' ,'_self')">
+                        Pa</td>
+                        
+                        <td id="nr92" class="Actnid" 
+                        onmouseover="cursor('uran', 'nr92')"
+                        onmouseout="document.getElementById('uran').style.display = 'none'"
+                        onClick="window.open('Uran.html' ,'_self')">
+                        U</td>
+                        
+                        <td id="nr93" class="Actnid rest" 
+                        onmouseover="cursor('neptunium', 'nr93')"
+                        onmouseout="document.getElementById('neptunium').style.display = 'none'"
+                        onClick="window.open('Neptunium.html' ,'_self')">
+                        Np</td>
+                        
+                        <td id="nr94" class="Actnid" 
+                        onmouseover="cursor('plutonium', 'nr94')"
+                        onmouseout="document.getElementById('plutonium').style.display = 'none'"
+                        onClick="window.open('Plutonium.html' ,'_self')">
+                        Pu</td>
+                        
+                        <td id="nr95" class="Actnid Syntetisk" 
+                        onmouseover="cursor('americium', 'nr95')"
+                        onmouseout="document.getElementById('americium').style.display = 'none'"
+                        onClick="window.open('Americium.html' ,'_self')">
+                        Am</td>
+                        
+                        <td id="nr96" class="Actnid Syntetisk" 
+                        onmouseover="cursor('curium', 'nr96')"
+                        onmouseout="document.getElementById('curium').style.display = 'none'"
+                        onClick="window.open('Curium.html' ,'_self')">
+                        Cm</td>
+                        
+                        <td id="nr97" class="Actnid Syntetisk" 
+                        onmouseover="cursor('berkelium', 'nr97')"
+                        onmouseout="document.getElementById('berkelium').style.display = 'none'"
+                        onClick="window.open('Berkelium.html' ,'_self')">
+                        Bk</td>
+                        
+                        <td id="nr98" class="Actnid Syntetisk" 
+                        onmouseover="cursor('californium', 'nr98')"
+                        onmouseout="document.getElementById('californium').style.display = 'none'"
+                        onClick="window.open('Californium.html' ,'_self')">
+                        Cf</td>
+                        
+                        <td id="nr99" class="Actnid Syntetisk" 
+                        onmouseover="cursor('einsteinium', 'nr99')"
+                        onmouseout="document.getElementById('einsteinium').style.display = 'none'"
+                        onClick="window.open('Einsteinium.html' ,'_self')">
+                        Es</td>
+                        
+                        <td id="nr100" class="Actnid Syntetisk" 
+                        onmouseover="cursor('fermium', 'nr100')"
+                        onmouseout="document.getElementById('fermium').style.display = 'none'"
+                        onClick="window.open('Fermium.html' ,'_self')">
+                        Fm</td>
+                        
+                        <td id="nr101" class="Actnid Syntetisk" 
+                        onmouseover="cursor('mendelevium', 'nr101')"
+                        onmouseout="document.getElementById('mendelevium').style.display = 'none'"
+                        onClick="window.open('Mendelevium.html' ,'_self')">
+                        Md</td>
+                        
+                        <td id="nr102" class="Actnid Syntetisk"
+                        onmouseover="cursor('nobelium', 'nr102')"
+                        onmouseout="document.getElementById('nobelium').style.display = 'none'"
+                        onClick="window.open('nobelium.html' ,'_self')">
+                        No</td>
+                        
+                        <td id="nr103" class="Actnid Syntetisk" 
+                        onmouseover="cursor('lawrencium', 'nr103')"
+                        onmouseout="document.getElementById('lawrencium').style.display = 'none'"
+                        onClick="window.open('Lawrencium.html' ,'_self')">
+                        Lr</td>
+                
+                
+                	</tr>
+       			</table> <!--Lantact -->
+    
+          	</div><!--systembottom--> 
+           
+        
+        
+        </section><!-- Sectionsystem -->
+    </section>
+
+
+
+
+
+</body>
+</html>

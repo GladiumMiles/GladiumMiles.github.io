@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;	/* Nollställer sidans margin */
+}
+@font-face {
+	font-family: "Rex Light";
+	src: url(rexlight.otf);		
+}
+@font-face {
+	font-family: nevis;
+	src: url("nevis.ttf");		
+}
+@font-face {
+	font-family: ArialNarrow;
+	src: url("ArialNarrow.ttf");		
+}
+.Gas{color:#ffffff;
+	text-shadow: 1px 1px 5px rgba(0, 0, 2, 0.5);
+	
+}
+#color{background-color:#C9C9C9; opacity: 0.2; z-index: -5;  }
+.Flytande{color:#0115AC; text-shadow: 1px 1px 5px rgba(0, 0, 2, 0.5);}
+	
+.Alkalimetaller, .key1{background-color:#D90104}
+.Jordart, .key2{background-color:#FF7600}
+.Overgang, .key3{background-color:#7B7777}
+.Post, .key4{background-color:#006B2A;}
+.Halv, .key5 {background-color:#00F70C}
+.Ickemetaller, .key6{background-color: #FFF500}
+.Halogener, .key7{background-color: #09D7E8}
+.Adelgaser, .key8{background-color:#2E00B4}
+.key9{background-color: #FF00ED}
+.oidentifierad{background-color: #FFFFFF}
+
+.key10{background-color: #C805B5}
+.Lant{
+	background-color: #FF00ED;
+	height:37px;
+	width: 37px;
+	min-height: 37px;
+	max-height: 37px;
+	min-width: 37px;
+	max-width: 37px;
+	border: dotted 2px black;}
+
+.Actnid{
+	background-color:#C805B5;
+	height:37px;
+	width: 37px;
+	min-height: 37px;
+	max-height: 37px;
+	min-width: 37px;
+	max-width: 37px;
+	border: dotted 2px black;}
+#system #SectionSystem #systembottom .lantact tr td.Syntetisk{
+	border: dotted 2px black;	
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td.Syntetisk{
+	border: dotted 2px black;	
+}
+#system #SectionSystem #systembottom .lantact tr td.rest{
+	border: dashed 2px black;
+
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td.rest{
+	border: dashed 2px black;	
+}
+body{
+	
+	
+}
+
+
+
+header{
+	width: 100%;
+	
+	
+	
+}
+header #overheader{
+	padding-bottom: 10px;
+	width: 100%;
+	display: block;
+	background-color:black;
+	height: 37px;
+}
+header section figure{
+	background-color:black;
+	
+	display: block;
+  	
+}
+header section figure img{
+	/*max-width: 25%;*/
+	display: block;
+	width: 360px;
+	float: left;
+	background-color:black;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+header section nav {
+	width: 100%;
+	
+	background-color: black;  /* Ställer in bakgrundsfärgen på navbaren */
+}
+header section nav ul {
+	list-style-type:none; /* tar bort punkterna från högersidan av listan */
+	
+	padding-left :0px; /* Nollställer padding */
+}
+
+
+header section nav ul li {
+	float: left;	/* Placerar lielementen till vänster */
+	position:relative;
+	margin: 0 auto;	
+}
+
+header section nav ul li a {
+	height:24px;
+	width:125.6px;
+	padding: 12.5px 0px 5px;
+	font-size:14px;
+	line-height: 24px;
+	
+	font-family: nevis;
+	font-weight: bold;	
+	text-align:center;
+	text-decoration:none;
+	text-transform: uppercase;
+	display: block;
+	
+	border-bottom: 5px solid transparent;
+	background-color: black;
+	color:white;
+	
+	
+}
+header section nav ul li .tjocklank {
+	width:165.6px;
+	
+}
+header section nav ul li a:hover{
+	color: #F00004;
+	border-color: white;
+	z-index: -1;
+	
+}
+
+
+header section nav ul li ul {
+	display:none;
+	z-index: 1000;
+	
+}
+
+header section nav ul li:hover ul {
+	display:block;
+	position: absolute;
+	z-index: 1000;
+		
+}
+
+
+header section nav ul li:hover ul li a{
+	height: 35px;
+	display:block;
+	text-align:left;
+	padding-left: 10px;
+	font-size: 70%;
+	padding-bottom: 0px;
+	text-transform: none;
+	width:115.6px;
+	line-height: 35px;
+	z-index: 1000;
+	
+}
+header section nav ul li:hover ul li .tjocklank{
+	width:155.6px;
+	
+}
+
+
+header section nav ul li:hover ul li a:hover{
+	background-color: #00D3FF;	
+	color:#000000;
+}
+header #key{
+	margin: 0 auto;
+	/* width:100%; */
+	width:898px;
+	margin-top: 10px;
+	height: 90px;
+}
+header #key #keycolor div div{
+	width: 171px;	
+	float: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border:solid 1px black;
+	font-weight: bold;
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 5px;
+}
+header #key #keycolor div .ruta{
+	margin-left:2px;	
+	
+}
+ header #key #keycolor #uppe div{
+
+	
+}
+header #key #keycolor #nere div{
+	margin-top: 2px;
+	margin-bottom: 10px;
+} 
+
+
+/* Css för gruppnummer */
+ #system #top{
+	background-color: none;
+	width: 898px;
+	height: 44px;
+	margin: 0 auto;
+	
+}
+ #system #top table{
+	height: 45px;
+	width: 900px;
+	border-spacing: 0px;
+	margin: 0 auto;
+	margin-left: 0px;
+}
+#system{
+	margin: 0 auto;
+	
+}
+#system #SectionSystem #systemtop #EttHundraArton{
+  	        
+  	width: 900px;
+	height: 315px;
+	margin: 0 auto;
+	
+	
+}
+#system #SectionSystem #systemtop div{
+	float:left;
+}
+
+
+#system #SectionSystem #systemtop #EttHundraArton{
+	height: 44px;
+	width: 898px;
+	
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td{
+	width: 42px;
+	height: 42px;
+	text-align:center;	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: solid 1px black;
+	font-weight: bold;
+
+	min-height: 42px;
+	max-height: 42px;
+	min-width: 42px;
+	max-width: 42px;
+}
+/* Nedan följer css för rutan med information */
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div{
+	font-size: 32px;
+	font-family: "arial narrow";
+	display:block;
+	text-align:center;
+	font-variant: normal;
+	font-weight: normal;
+	
+}
+#boxmednamn{
+	
+	
+	text-align:center;
+}
+#boxmednamn p{
+	padding-left:0px;	
+	
+	
+	
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 28px;
+	padding-bottom: 33px;
+	line-height: 0px;
+	padding-right: 250px;
+}
+
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffranere{
+	text-align: left;
+	padding-top: 33px;
+	margin-left: 5px;
+	font-size: 28px;
+	line-height: 0px;
+	
+	padding-right: 250px;
+}
+#system #SectionSystem #systemtop #EttHundraArton .borderblock{border:hidden}
+#system #SectionSystem #systembottom{
+	margin: 0 auto;
+	height: 94px;
+}
+
+
+#system #SectionSystem #systembottom .lantact{
+ 	margin: 0 auto;
+	height: 94px;
+
+
+}
+#system #SectionSystem #systembottom .lantact tr td{
+	border: solid 1px black;
+	border-spacing: 1px;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+		width: 42px;
+	height: 42px;
+
+
+	min-height: 42px;
+	max-height: 42px;
+	min-width: 42px;
+	max-width: 42px;
+	
+}
