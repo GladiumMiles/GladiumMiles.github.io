@@ -16,7 +16,10 @@
 	src: url("ArialNarrow.ttf");		
 }
 .Gas{color:#ffffff;
-	text-shadow: 1px 1px 5px rgba(0, 0, 2, 0.5);
+	text-shadow:    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; ;
 	
 }
 #color{background-color:#C9C9C9; opacity: 0.2; z-index: -5;  }
@@ -53,6 +56,13 @@
 	min-width: 37px;
 	max-width: 37px;
 	border: dotted 2px black;}
+.Lant2{background-color: #FF00ED; }
+.Actnid2{background-color:#C805B5 }
+	
+	
+	
+	
+	
 #system #SectionSystem #systembottom .lantact tr td.Syntetisk{
 	border: dotted 2px black;	
 }
@@ -340,14 +350,14 @@ header #key{
 	/* width:100%; */
 	width:1400px;
 	margin-top: 10px;
-	height: 90px;
+	height: 140px;
 }
 header #key #keycolor div div{
 	width: 271px;	
 	float: left;
 	font-size: 14px;
-	height: 45px;
-	line-height: 45px;
+	height: 70px;
+	line-height: 70px;
 	
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td{

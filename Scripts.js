@@ -91,7 +91,7 @@ $(function() {
     // on mouseout, reset the background colour
     $('#color').css('opacity', '0.2');
   });    
-           $('.borderblock, #color').hover(function() {
+           $('.borderblock, #color, .Lant2, .Actnid2').hover(function() {
     $('#color').css('opacity', '0.2');
   }, function() {
     // 
