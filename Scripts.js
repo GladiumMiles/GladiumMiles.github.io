@@ -94,10 +94,13 @@ $(function() {
            $('.borderblock, #color').hover(function() {
     $('#color').css('opacity', '0.2');
   }, function() {
-    // on mouseout, reset the background colour
+    // 
     $('#color').css('opacity', '0.2');
   }); 
 });
+
+
+
 // En för varje av grundämnes klasserna
 var key1 = 2;
 var key2 = 2;

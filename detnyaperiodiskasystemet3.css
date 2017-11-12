@@ -327,6 +327,14 @@ header #key #keycolor #nere div{
 	
 }
 @media screen and (min-width:1900px){
+	header section nav ul li a {
+	height:24px;
+	width:165.6px;	
+}
+header section nav ul li:hover ul li a{
+	width:155.6px;
+
+}
 header #key{
 	margin: 0 auto;
 	/* width:100%; */
@@ -365,6 +373,29 @@ header #key #keycolor div div{
 	max-height: 70px;
 	min-width: 70px;
 	max-width: 70px;
-}	
+}
+#boxmednamn p{
+	font-size: 38px;	
 	
+	
+	
+}	
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
+	
+	margin-left: 5px;
+	font-size: 38px;
+	padding-bottom: 70px;
+	line-height: 0px;
+	padding-right: 250px;
+}
+
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffranere{
+	
+	padding-top: 70px;
+	margin-left: 5px;
+	font-size: 38px;
+	line-height: 0px;
+	
+	padding-right: 250px;
+}	
 }
