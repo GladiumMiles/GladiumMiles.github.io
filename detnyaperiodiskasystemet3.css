@@ -20,7 +20,7 @@
 	
 }
 #color{background-color:#C9C9C9; opacity: 0.2; z-index: -5;  }
-.Flytande{color:#0115AC; text-shadow: 1px 1px 5px rgba(0, 0, 2, 0.5);}
+.Flytande{color:#0115AC;}
 	
 .Alkalimetaller, .key1{background-color:#D90104}
 .Jordart, .key2{background-color:#FF7600}
@@ -266,7 +266,7 @@ header #key #keycolor #nere div{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	border: solid 1px black;
 	font-weight: bold;
-
+	font-size: 16px;
 	min-height: 42px;
 	max-height: 42px;
 	min-width: 42px;
@@ -332,7 +332,7 @@ header #key #keycolor #nere div{
 	text-align: center;
 		width: 42px;
 	height: 42px;
-
+	font-size: 16px;
 
 	min-height: 42px;
 	max-height: 42px;
