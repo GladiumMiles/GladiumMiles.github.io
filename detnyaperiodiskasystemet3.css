@@ -409,3 +409,24 @@ header #key #keycolor div div{
 	padding-right: 250px;
 }	
 }
+@media screen and (orientation:portrait) {
+header section figure{
+	background-color:black;
+	
+	display: block;
+  	
+}
+header section figure img{
+	/*max-width: 25%;*/
+
+	width: 240px;
+
+}
+header section nav ul li a {
+	height:24px;
+	width:20.6px;	
+}
+	
+	
+	
+}

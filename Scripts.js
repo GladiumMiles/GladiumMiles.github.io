@@ -123,10 +123,10 @@ $(function() {
 	  
 	  if (key1 % 2 == 1){ //klasserna har satts till två innan. När talet är jämnt så försvinner övriga klasser, när drt är jämnt kommer de tillbaka, detta upprepas sedan för alla 10 klasser
 
-	$('.key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10,  .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');	
+	$('.key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10,  .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');	
 	  } else {
 		  
-    $('.key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10,  .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10,  .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Alkalimetaller, .key1').css('opacity', '1');	
 	  }
   	key1++;
@@ -144,9 +144,9 @@ $(function() {
   
   	if (key2 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Jordart, .key2').css('opacity', '1');
 		}
 	key1 = 2;
@@ -164,9 +164,9 @@ $(function() {
   
   	if (key3 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Overgang, .key3').css('opacity', '1');
 		}
 	key1 = 2;
@@ -184,9 +184,9 @@ $(function() {
   
   	if (key4 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Post, .key4').css('opacity', '1');
 		}
 	key1 = 2;
@@ -204,9 +204,9 @@ $(function() {
   
   	if (key5 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Halv, .key5').css('opacity', '1');
 		}
 	key1 = 2;
@@ -224,9 +224,9 @@ $(function() {
   
   	if (key6 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key5, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key5, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Ickemetaller, .key6').css('opacity', '1');
 		}
 	key1 = 2;
@@ -244,9 +244,9 @@ $(function() {
   
   	if (key7 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key5, .key6, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key5, .key6, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Adelgaser, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Halogener, .key7').css('opacity', '1');
 		}
 	key1 = 2;
@@ -264,9 +264,9 @@ $(function() {
   
   	if (key8 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key9, .key10, .Alkalimetaller, .Jordart, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Adelgaser, .key8').css('opacity', '1');
 		}
 	key1 = 2;
@@ -284,9 +284,9 @@ $(function() {
   
   	if (key9 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Lant, .key9').css('opacity', '1');
 		}
 	key1 = 2;
@@ -304,9 +304,9 @@ $(function() {
   
   	if (key10 % 2 == 1){
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} else {
-    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .Alkalimetaller, .Jordart, .Adelgaser, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '0.2');
+    $('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .Alkalimetaller, .Jordart, .Adelgaser, .Overgang, .Ickemetaller, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '0.2');
 	$('.Actnid, .key10').css('opacity', '1');
 		}
 	key1 = 2;
@@ -324,7 +324,7 @@ $(function() {
   
   	{
   
-	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad').css('opacity', '1');
+	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} 
 	key1 = 2;
 	key2 = 2;
