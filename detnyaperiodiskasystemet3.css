@@ -326,7 +326,7 @@ header #key #keycolor #nere div{
 	max-width: 42px;
 	
 }
-@media only screen and (min-width:1900px){
+@media screen and (min-width:1900px){
 header #key{
 	margin: 0 auto;
 	/* width:100%; */
