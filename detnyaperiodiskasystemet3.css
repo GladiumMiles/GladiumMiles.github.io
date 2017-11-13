@@ -25,12 +25,12 @@
 #color{background-color:#C9C9C9; opacity: 0.2; z-index: -5;  }
 .Flytande{color:#0115AC;}
 	
-.Alkalimetaller, .key1{background-color:#D90104}
+.Alkalimetaller, .key1{background-color:#ff0000}
 .Jordart, .key2{background-color:#FF7600}
 .Overgang, .key3{background-color:#7B7777}
 .Post, .key4{background-color:#006B2A;}
 .Halv, .key5 {background-color:#00F70C}
-.Ickemetaller, .key6{background-color: #FFF500}
+.Ickemetaller, .key6{background-color: #ffff19}
 .Halogener, .key7{background-color: #09D7E8}
 .Adelgaser, .key8{background-color:#2E00B4}
 .key9{background-color: #FF00ED}

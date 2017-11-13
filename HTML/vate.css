@@ -132,85 +132,92 @@ header section nav ul li:hover ul li a:hover{
 	background-color: #00D3FF;	
 	color:#000000;
 }
-#wrapper #main #ikoner {
-	margin-left: 80px;	
-	width: 200px;
-}
-
-#wrapper #main #ikoner #nuvarande{
-	width:200px;
-	height:200px;	
+#content #ikoner {
+	max-width: 200px;
+	float: left;
+	margin-left: 50px;
 	margin-top: 10px;
 	
 }
-#wrapper #main #ikoner #nasta{
+#content #ikoner #nuvarande{
+	width: 200px;
+	height: 200px;
+	margin-left: 5px;
+	
+}
+#content #ikoner #foregaende{
 	width: 50px;
 	height: 50px;
 	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #nasta{
+	width: 50px;
+	height: 50px;
+	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #foregaendeigrupp{
+	width: 50px;
+	height: 50px;
+	float: right;
 	
+}
+#content #ikoner #nastaigrupp{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+}
+#content #Egenskaperbox{
 	margin-left: 0px;
-	padding-left: 10px;
-}
-#wrapper #main #ikoner #foregaendeigrupp{
-	width: 50px;
-	height: 50px;
-	float:left;
-	padding-left: 40px;
+	
 	
 }
-#wrapper #main #ikoner #foregaende{
-	width: 50px;
-	height: 50px;
-	float:left;
-}
-#wrapper #main #ikoner #nastaigrupp{
-	width: 50px;
-	height: 50px;
-	float:left;
-	padding-top: 10px;
-	padding-left: 150px;
-}
-#Egenskaperbox{
-	margin-left: 250px;
-	margin-top: -205px;
+#content #Egenskaperbox .Egenskaper{
 	
-}
-.Egenskaper {
-	color: #D4B8B9;
+	padding-left: 15px;
+	margin-top: 10px;
+	float: left;
+		color: #D4B8B9;
   	font-family:"Rex Light";
 	font-size: 20px;	
-
+	margin-left: 0px;
 	
 	line-height: 25px;
-	
-	
 }
 span.EgenskaperText {
 	color: #FFFFFF;
 	font-weight:bold;
 }
 
-#wrapper #main #elektronkonfig{
-	height: 200px;
-	width: 200px;
-	position: fixed;
-	margin-left: 685px;
-	margin-top: -390px;
-	z-index: -10;
+#content #elektronbox{
+	float: left;
+	position: static;
+		max-height: 200px;
+	max-width: 200px;
+	margin-top: 150px;
+	margin-left: 100px;
 }
-#wrapper #main #elektronkonfig img{
+ #content #elektronbox #elektronkonfig{
+	
+	
+		
+	
+} 
+#content #elektronbox #elektronkonfig img{
 	height: 50px;
 	width: 50px;
-	
-	position: absolute;
+	position: relative;
 	top: 75px;
 	left: 75px;
+	
 }
-#wrapper #main #elektronkonfig img.kskal{
+#content  #elektronbox #elektronkonfig img.kskal{
 	height: 200px;
 	width: 200px;
-	position: absolute;
-	top: 0px;
+	position: relative;
+	top: -50px;
 	left: 0px;
 	
 	-webkit-animation: spin-right 10s linear infinite;
@@ -219,15 +226,7 @@ span.EgenskaperText {
        -o-animation: spin-right 10s linear infinite;
           animation: spin-right 10s linear infinite; /* Ställer in så att elektronens bild snurrar höger, att det ska ta 10 sekunder för ett varv och att det ska hålla på hela tiden, har gjort det flera gånger för att det ska funka i alla webbläsare */
 }
-#wrapper #footer{
-	margin-top: -48px;
-}
-#wrapper #footer img{
-	height: 150px;
-	width: 150px;
-	margin-left: 80px;
-	margin-top: -150px;	
-}
+
 @-webkit-keyframes spin-right {
   100% {
     -webkit-transform: rotate(360deg);
@@ -237,6 +236,9 @@ span.EgenskaperText {
             transform: rotate(360deg); /* elektronerna ska snurra i 360 grader */
   }
 }
+
+
+
 
 
 

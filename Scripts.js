@@ -8,7 +8,7 @@ $(function() {
     $('#color').css('background-color', '');
   });
     $('.Alkalimetaller').hover(function() {
-    $('#color').css('background-color', '#D90104');
+    $('#color').css('background-color', '#FF0000');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
@@ -69,7 +69,7 @@ $(function() {
   });
          $('.Gas').hover(function() {
     $('#color').css('color', '#FFFFFF');
-	$('#color').css('text-shadow', '1px 1px 5px rgba(0, 0, 2, 0.5)');
+	$('#color').css('text-shadow', ' -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('color', '#000000');
@@ -81,10 +81,8 @@ $(function() {
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('color', '#000000');
-	
   });
   
-           
          $('#EttHundraArton tr td, #systembottom tr td').hover(function() {
     $('#color').css('opacity', '1');
   }, function() {
@@ -321,9 +319,7 @@ $(function() {
 	key10++; 
   });
        $('.Neutral').click(function() {
-  
   	{
-  
 	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
 	} 
 	key1 = 2;
