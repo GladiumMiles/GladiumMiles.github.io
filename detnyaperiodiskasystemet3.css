@@ -16,7 +16,8 @@
 	src: url("ArialNarrow.ttf");		
 }
 .Gas{color:#ffffff;
-	text-shadow:    -1px -1px 0 #000,
+	text-shadow:    
+	-1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000; ;
@@ -103,6 +104,11 @@ header section figure img{
 	padding-left: 10px;
 }
 
+header section figure img.Hamburgare{
+	width: 25px;
+	margin-top: 6px;
+	display:none;
+}
 header section nav {
 	width: 100%;
 	
@@ -419,14 +425,17 @@ header section figure{
 header section figure img{
 	/*max-width: 25%;*/
 
-	width: 240px;
+	width: 360px;
 
 }
 header section nav ul li a {
 	height:24px;
 	width:20.6px;	
+	display: none;
 }
-	
+header section figure img.Hamburgare{
+	display: block;
+}
 	
 	
 }
