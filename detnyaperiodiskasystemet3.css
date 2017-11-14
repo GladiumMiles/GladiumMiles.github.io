@@ -262,7 +262,7 @@ header #key #keycolor #nere div{
 	
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td{
-	width: 42px;
+	width: 52px;
 	height: 42px;
 	text-align:center;	
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -361,7 +361,7 @@ header #key{
 header #key #keycolor div div{
 	width: 271px;	
 	float: left;
-	font-size: 14px;
+	font-size: 16px;
 	height: 70px;
 	line-height: 70px;
 	

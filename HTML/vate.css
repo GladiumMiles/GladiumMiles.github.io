@@ -230,8 +230,87 @@ span.EgenskaperText {
             transform: rotate(360deg); /* elektronerna ska snurra i 360 grader */
   }
 }
+@media screen and (min-width:1900px){
+#content #ikoner {
+	max-width: 300px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	
+}
+#content #ikoner #nuvarande{
+	width: 300px;
+	height: 300px;
+	margin-left: 5px;
+	
+}
+#content #ikoner #foregaende{
+	width: 75px;
+	height: 75px;
+	float:left;
+	margin-left: 15px;
+}
+#content #ikoner #nasta{
+	width: 75px;
+	height: 75px;
+	float:left;
+	margin-left: 15px;
+}
+#content #ikoner #foregaendeigrupp{
+	width: 75px;
+	height: 75px;
+	float: right;
+	
+}
+#content #ikoner #nastaigrupp{
+	width: 75px;
+	height: 75px;
+	float: right;
+	margin-top: 15px;
+}
+#content #elektronbox{
+
+	margin-top: 150px;
+	margin-left: 250px;
+}
+#content #elektronbox #elektronkonfig img{
+	height: 75px;
+	width: 75px;
+	position: relative;
+	top: 112.5px;
+	left: 112.5px;
+	
+}
+#content  #elektronbox #elektronkonfig img.kskal{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: -75px;
+	left: 0px;
+
+}
+}
+@media screen and (orientation:portrait) {
+	header section figure img{
+	/*max-width: 25%;*/
+
+	width: 360px;
+
+}
+header section nav ul li a {
+	height:24px;
+	width:20.6px;	
+	display: none;
+}
+header section figure img.Hamburgare{
+	display: block;
+}
 
 
+
+
+
+}
 
 
 
