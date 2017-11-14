@@ -38,7 +38,11 @@ header section figure img{
 	padding-top: 5px;
 	padding-left: 10px;
 }
-
+header section figure img.Hamburgare{
+	width: 25px;
+	margin-top: 6px;
+	display:none;
+}
 header section nav {
 	width: 100%;
 	
@@ -211,7 +215,7 @@ span.EgenskaperText {
 	height: 200px;
 	width: 200px;
 	position: relative;
-	top: -50px;
+	top: -55px;
 	left: 0px;
 	
 	-webkit-animation: spin-right 10s linear infinite;
@@ -285,16 +289,32 @@ span.EgenskaperText {
 	height: 300px;
 	width: 300px;
 	position: relative;
-	top: -75px;
+	top: -80px;
 	left: 0px;
 
 }
 }
 @media screen and (orientation:portrait) {
+	header #overheader{
+	padding-bottom: 10px;
+	width: 100%;
+	display: block;
+	background-color:#FFF500;
+	height: 67px;
+}
+
+
+
+
+
 	header section figure img{
 	/*max-width: 25%;*/
-
-	width: 360px;
+	margin-top: 5px;
+	width: 520px;
+	padding-bottom: 0px;
+	padding-top: 3px;
+	padding-left: 10px;
+	float: left;
 
 }
 header section nav ul li a {

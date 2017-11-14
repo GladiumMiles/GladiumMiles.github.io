@@ -433,9 +433,21 @@ header section nav ul li a {
 	width:20.6px;	
 	display: none;
 }
-header section figure img.Hamburgare{
+header section figure img{
+	/*max-width: 25%;*/
 	display: block;
+	width: 520px;
+	float: left;
+	background-color:black;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
 }
-	
+
+header section figure img.Hamburgare{
+	width: 50px;
+	margin-top: 2px;
+	display:block;
+}
 	
 }
