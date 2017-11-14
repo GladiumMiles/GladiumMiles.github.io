@@ -307,23 +307,25 @@ span.EgenskaperText {
 
 
 
-	header section figure img{
-	/*max-width: 25%;*/
-	margin-top: 5px;
-	width: 520px;
-	padding-bottom: 0px;
-	padding-top: 3px;
-	padding-left: 10px;
-	float: left;
 
-}
 header section nav ul li a {
 	height:24px;
 	width:20.6px;	
 	display: none;
 }
-header section figure img.Hamburgare{
+header #overheader figure img{
 	display: block;
+	width: 520px;
+	float: left;
+	padding-bottom: 2px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 7px;
+}
+header #overheader figure img.Hamburgare{
+	display: block;
+	margin-top: 7px;
+	width: 50px;
 }
 
 
