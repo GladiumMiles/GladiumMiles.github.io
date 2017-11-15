@@ -292,7 +292,7 @@ header #key #keycolor #nere div{
 #boxmednamn p{
 	padding-left:0px;	
 	
-	
+	margin-right:  -10px;
 	
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .varden{
@@ -301,7 +301,9 @@ header #key #keycolor #nere div{
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper{
 	float: right;
-
+	margin-top: 14px;
+	margin-right: 8px;
+	
 }
 
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
@@ -310,7 +312,7 @@ header #key #keycolor #nere div{
 	font-size: 28px;
 	padding-bottom: 33px;
 	line-height: 0px;
-	padding-right: 250px;
+	padding-right: 220px;
 }
 
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffranere{
@@ -324,7 +326,7 @@ header #key #keycolor #nere div{
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul{
 	float: right;
-	margin-top: 18px;
+
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul li{
 	font-size: 16px;
@@ -361,6 +363,13 @@ header #key #keycolor #nere div{
 	max-width: 42px;
 	
 }
+
+
+
+/* Här börjar NY stilmall */
+
+
+
 @media screen and (min-width:1900px){
 	header section nav ul li a {
 	height:24px;
