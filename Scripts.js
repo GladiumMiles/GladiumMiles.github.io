@@ -80,10 +80,12 @@ $(function() {
   });
 	  $('.Flytande').hover(function() {
     $('#color').css('color', '#0115AC');
+    $('#color').css('text-shadow', ' -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000');
 	
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('color', '#000000');
+    $('#color').css('text-shadow', '0px 0px 0px rgba(0, 0, 2, 0.5)');
   });
   
          $('#EttHundraArton tr td, #systembottom tr td').hover(function() {
