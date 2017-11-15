@@ -1,5 +1,8 @@
 // JavaScript Document
 
+
+
+
 $(function() {
   $('.Ickemetaller').hover(function() {
     $('#color').css('background-color', '#FFF500');
@@ -111,9 +114,7 @@ var key8 = 2;
 var key9 = 2;
 var key10 = 2;
 
-$(function() {
 
-});
 
 $(function() {
     $('.key1').click(function() {
@@ -334,3 +335,24 @@ $(function() {
 	key10 = 2; 
   }); 
 });
+
+	var Legendknapp = 2;
+$(function() {
+    $('.Legendknapp').click(function() {
+	  
+	  
+	  if (Legendknapp % 2 == 1){ //klasserna har satts till två innan. När talet är jämnt så försvinner övriga klasser, när drt är jämnt kommer de tillbaka, detta upprepas sedan för alla 10 klasser
+
+	$('.Legend').css('display', 'none');	
+	  } else {
+		  
+    
+	$('.Legend').css('display', 'block');	
+	  }
+  	Legendknapp++;
+	 
+  });
+});
+
+
+

@@ -24,7 +24,8 @@
 	
 }
 #color{background-color:#C9C9C9; opacity: 0.2; z-index: -5;  }
-.Flytande{color:#0115AC;}
+.Flytande{color:#0115AC}
+
 	
 .Alkalimetaller, .key1{background-color:#ff0000}
 .Jordart, .key2{background-color:#FF7600}
@@ -217,12 +218,25 @@ header #key #keycolor div div{
 header #key #keycolor div .ruta{
 	margin-left:2px;	
 	
-}
+} 
 header #key #keycolor #nere div{
 	margin-top: 2px;
 	margin-bottom: 10px;
+}
+header .Legendknapp{
+	height: 40px;
+	background-color: yellow;
+	width: 100px;
+	float: right;
 } 
-
+header .Legendknapp p{
+	color: black;
+	font-family: nevis;
+	background-color: yellow;
+	float:left;
+	width: 100px;
+	line-height: 40px;
+}
 
 /* Css för gruppnummer */
  #system #top{
@@ -363,6 +377,72 @@ header #key #keycolor #nere div{
 	max-width: 42px;
 	
 }
+body .Legend{
+	display: none;
+	
+}
+
+body .Legend div{
+	height: 200px;
+	width: 450px;
+	background-color: white;
+	border-top:solid 4px black;
+	border-right:solid 4px black;
+	border-left:solid 4px black;
+   	
+    z-index: 10000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
+  
+}
+body .Legend div h1{
+	color: black;
+	padding-left: 10px;
+	font-family: arial;
+	font-size: 24px;
+
+}
+body .Legend div table{
+	height:129px;
+	margin-left: 10px;
+
+}
+body .Legend div table tr{
+	
+
+
+}
+body .Legend div table tr td{
+	width: 43px;
+	height: 43px;
+	border: solid 1px black;
+	border-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+body .Legend div table tr .vansterinfo{
+	width: 100px;
+	text-align: left;
+	border: hidden;
+
+}
+body .Legend div table tr td.rest{
+border: dashed 2px black;
+
+}
+body .Legend div table tr td.syntetisk{
+border: dotted 2px black;
+
+}
+
+
+
 
 
 
