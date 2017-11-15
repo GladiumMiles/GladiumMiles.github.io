@@ -611,6 +611,20 @@ body .Legend figure img{
 	margin-right: 3px;
 	max-width: 100%;
 }
+body .Alexander figure{
+
+	width: 200px;
+
+}
+body .Alexander figure .gjortav{
+	width: 250px;
+	position: absolute;
+    
+    right: 0;
+    bottom: 0;
+
+}
+
 
 }
 @media screen and (orientation:portrait) {
