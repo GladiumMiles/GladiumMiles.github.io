@@ -262,7 +262,7 @@ header #key #keycolor #nere div{
 	
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td{
-	width: 52px;
+	width: 42px;
 	height: 42px;
 	text-align:center;	
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -295,6 +295,15 @@ header #key #keycolor #nere div{
 	
 	
 }
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .varden{
+	float: left;
+
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper{
+	float: right;
+
+}
+
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
 	text-align: left;
 	margin-left: 5px;
@@ -313,6 +322,16 @@ header #key #keycolor #nere div{
 	
 	padding-right: 250px;
 }
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul{
+	float: right;
+	margin-top: 18px;
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul li{
+	font-size: 16px;
+	text-align: left;
+	list-style-type: none;
+}
+
 #system #SectionSystem #systemtop #EttHundraArton .borderblock{border:hidden}
 #system #SectionSystem #systembottom{
 	margin: 0 auto;
@@ -381,7 +400,7 @@ header #key #keycolor div div{
 }
 #system #SectionSystem #systembottom .lantact tr td{
 
-		width: 70px;
+	width: 70px;
 	height: 70px;
 	font-size: 24px;
 
@@ -389,7 +408,9 @@ header #key #keycolor div div{
 	max-height: 70px;
 	min-width: 70px;
 	max-width: 70px;
+	
 }
+
 #boxmednamn p{
 	font-size: 38px;	
 	
@@ -413,9 +434,12 @@ header #key #keycolor div div{
 	line-height: 0px;
 	
 	padding-right: 250px;
-}	
+}
+
 }
 @media screen and (orientation:portrait) {
+
+
 header section figure{
 	background-color:black;
 	
@@ -423,18 +447,20 @@ header section figure{
   	
 }
 header section figure img{
-	/*max-width: 25%;*/
+	/*max-width: 25%;
 
 	width: 360px;
 
 }
+
 header section nav ul li a {
 	height:24px;
 	width:20.6px;	
 	display: none;
 }
+
 header section figure img{
-	/*max-width: 25%;*/
+	/*max-width: 25%; */
 	display: block;
 	width: 520px;
 	float: left;
@@ -449,6 +475,10 @@ header section figure img.Hamburgare{
 	width: 50px;
 	margin-top: 12px;
 	display:block;
+}
+#system #SectionSystem #systembottom{
+	margin: 0 auto;
+	height: 94px;
 }
 	
 }
