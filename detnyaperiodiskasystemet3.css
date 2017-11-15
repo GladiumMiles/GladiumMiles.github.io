@@ -320,7 +320,7 @@ header .Legendknapp p{
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper{
 	float: right;
 	margin-top: 14px;
-	margin-right: 8px;
+	margin-right: 6px;
 	
 }
 
@@ -459,6 +459,27 @@ body .Legend div table tr td.syntetisk{
 border: dotted 2px black;
 
 }
+body .Alexander figure{
+
+	width: 200px;
+
+}
+body .Alexander figure .gjortav{
+	width: 250px;
+	position: absolute;
+    
+    right: 0;
+    bottom: 0;
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -542,11 +563,11 @@ header #key #keycolor div div{
 	
 	
 }
-#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper{
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn section.egenskaper{
 	float: right;
-	margin-top: 14px;
-	margin-right: 20px;
-	font-size: 24px;
+	margin-top: 30px;
+	
+	
 }	
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
 	
@@ -566,6 +587,16 @@ header #key #keycolor div div{
 	
 	padding-right: 250px;
 }
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul{
+	float: right;
+	margin-left: 80px;
+}
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn div ul li{
+	font-size: 26px;
+	text-align: left;
+	list-style-type: none;
+}
+
 body .Legend figure{
 	width: 20px;
 	float: right;
