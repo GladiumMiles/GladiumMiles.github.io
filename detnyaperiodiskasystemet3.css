@@ -201,7 +201,7 @@ header #key{
 	margin: 0 auto;
 	/* width:100%; */
 	width:898px;
-	margin-top: 10px;
+	margin-top: -30px;
 	height: 90px;
 }
 header #key #keycolor div div{
@@ -214,6 +214,7 @@ header #key #keycolor div div{
 	height: 45px;
 	line-height: 45px;
 	padding-left: 5px;
+	cursor: pointer;
 }
 header #key #keycolor div .ruta{
 	margin-left:2px;	
@@ -225,14 +226,17 @@ header #key #keycolor #nere div{
 }
 header .Legendknapp{
 	height: 40px;
-	background-color: yellow;
+	background-color: black;
 	width: 100px;
 	float: right;
+	border: 1px solid white;
+	text-align: center;
+	cursor: pointer;
 } 
 header .Legendknapp p{
-	color: black;
-	font-family: nevis;
-	background-color: yellow;
+	color: white;
+	font-family: Arial;
+	background-color: black;
 	float:left;
 	width: 100px;
 	line-height: 40px;
@@ -380,6 +384,20 @@ header .Legendknapp p{
 body .Legend{
 	display: none;
 	
+}
+body .Legend figure{
+	width: 10%;
+	float: right;
+	display: block;
+	cursor: pointer;
+}
+body .Legend figure img{
+	
+	font-family: nevis;
+	font-size: 30px;
+	margin-top:-27px;
+	margin-right: 3px;
+	max-width: 100%;
 }
 
 body .Legend div{
