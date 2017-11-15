@@ -80,7 +80,7 @@ $(function() {
   });
 	  $('.Flytande').hover(function() {
     $('#color').css('color', '#0115AC');
-    $('#color').css('text-shadow', ' -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000');
+    
 	
   }, function() {
     // on mouseout, reset the background colour
