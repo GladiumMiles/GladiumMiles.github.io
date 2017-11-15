@@ -478,6 +478,23 @@ header section nav ul li:hover ul li a{
 	width:155.6px;
 
 }
+header .Legendknapp{
+	height: 40px;
+	background-color: black;
+	width: 100px;
+	float: right;
+	border: 1px solid white;
+	text-align: center;
+	cursor: pointer;
+} 
+header .Legendknapp p{
+	color: white;
+	font-family: Arial;
+	background-color: black;
+	float:left;
+	width: 100px;
+	line-height: 40px;
+}
 header #key{
 	margin: 0 auto;
 	/* width:100%; */
@@ -542,6 +559,20 @@ header #key #keycolor div div{
 	line-height: 0px;
 	
 	padding-right: 250px;
+}
+body .Legend figure{
+	width: 20px;
+	float: right;
+	display: block;
+	cursor: pointer;
+}
+body .Legend figure img{
+	
+	font-family: nevis;
+	font-size: 30px;
+	margin-top:-27px;
+	margin-right: 3px;
+	max-width: 100%;
 }
 
 }
