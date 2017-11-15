@@ -29,7 +29,7 @@ $(function() {
     $('#color').css('background-color', '');
   });
       $('.Overgang').hover(function() {
-    $('#color').css('background-color', '#7B7777');
+    $('#color').css('background-color', '#9e9999');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
