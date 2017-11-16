@@ -670,5 +670,18 @@ header section figure img.Hamburgare{
 	margin: 0 auto;
 	height: 94px;
 }
+body .Alexander figure{
+
+	width: 200px;
+
+}
+body .Alexander figure .gjortav{
+	width: 250px;
+	position: absolute;
+    
+    right: 0;
+    bottom: 0;
+
+}
 	
 }
