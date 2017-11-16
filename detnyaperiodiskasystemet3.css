@@ -637,13 +637,6 @@ header section figure{
 	display: block;
   	
 }
-header section figure img{
-	/*max-width: 25%;
-
-	width: 360px;
-
-}
-
 header section nav ul li a {
 	height:24px;
 	width:20.6px;	
@@ -653,7 +646,7 @@ header section nav ul li a {
 header section figure img{
 	/*max-width: 25%; */
 	display: block;
-	width: 520px;
+	width: 480px;
 	float: left;
 	background-color:black;	
 	padding-bottom: 10px;

@@ -303,15 +303,38 @@ span.EgenskaperText {
 	height: 67px;
 }
 
+header section .navbar {
+	width: 100px;
+	position: absolute;
+    display: none;
+    left: 0;
+    top: 77px;
+	background-color: yellow;  /* Ställer in bakgrundsfärgen på navbaren */
+}
+header section nav ul {
+	list-style-type:none; /* tar bort punkterna från högersidan av listan */
+	
+	padding-left :0px; /* Nollställer padding */
+}
 
+
+header section nav ul li {
+	float: left;	/* Placerar lielementen till vänster */
+	position:relative;
+	margin: 0 auto;	
+}
 
 
 
 
 header section nav ul li a {
 	height:24px;
-	width:20.6px;	
-	display: none;
+	width:150px;	
+	display: block;
+}
+header section nav ul li .tjocklank {
+	width:150px;
+	
 }
 header #overheader figure img{
 	display: block;
