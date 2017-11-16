@@ -507,6 +507,7 @@ header .Legendknapp{
 	border: 1px solid white;
 	text-align: center;
 	cursor: pointer;
+	display:block
 } 
 header .Legendknapp p{
 	color: white;
