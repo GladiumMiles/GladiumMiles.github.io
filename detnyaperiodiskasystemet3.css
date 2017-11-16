@@ -661,6 +661,11 @@ header section figure img{
 	padding-left: 10px;
 	margin-top: 9px;
 }
+header #key{
+
+	margin-top: 10px;
+	
+}
 header .Legendknapp{
 	display:none;
 } 
