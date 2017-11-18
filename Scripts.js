@@ -2,7 +2,7 @@
 
 
 
-
+// Ändra bakgrundsfärg på boxen med information när man hovrar över ett grundämne
 $(function() {
   $('.Ickemetaller').hover(function() {
     $('#color').css('background-color', '#FFF500');
@@ -321,6 +321,7 @@ $(function() {
 	key9 = 2;
 	key10++; 
   });
+      // När man klickar utanför rutorna så nollställs allting igen 
        $('.Neutral').click(function() {
   	{
 	$('.key1, .key2, .key3, .key4, .key5, .key6, .key7, .key8, .key9, .key10, .Alkalimetaller, .Jordart, .Adelgaser, .Ickemetaller, .Overgang, .Post, .Halv, .Halogener, .Lant, .Actnid, .ActnidKey, .Lantanoid, .oidentifierad, .Lant2, .Actnid2').css('opacity', '1');
@@ -339,12 +340,13 @@ $(function() {
 });
 
 	var Legendknapp = 2;
+
+//funktion för knappen som öppnar som öppnar förklaring. Skiftar mellan display:none och black när man klickar på den
 $(function() {
     $('.Legendknapp').click(function() {
 	  
 	  
-	  if (Legendknapp % 2 == 1){ //klasserna har satts till två innan. När talet är jämnt så försvinner övriga klasser, när drt är jämnt kommer de tillbaka, detta upprepas sedan för alla 10 klasser
-
+	  if (Legendknapp % 2 == 1){ 
 	$('.Legend').css('display', 'none');	
 	  } else {
 		  
