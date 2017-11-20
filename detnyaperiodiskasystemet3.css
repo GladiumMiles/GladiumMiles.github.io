@@ -78,6 +78,11 @@
 #system #SectionSystem #systemtop #EttHundraArton tr td.rest{
 	border: dashed 2px black;	
 }
+body{
+	background-color: #ccc;
+
+
+}
 header{
 	width: 100%;	
 }
@@ -220,6 +225,11 @@ header #key #keycolor div .ruta{
 	margin-left:2px;	
 	
 } 
+header #key #keycolor #uppe div{
+	margin-top: 4px;
+	
+}
+
 header #key #keycolor #nere div{
 	margin-top: 2px;
 	margin-bottom: 10px;
@@ -315,14 +325,22 @@ header .Legendknapp p{
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .varden{
 	float: left;
-
+	width: 305px;
+	
 }
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper{
 	float: right;
 	margin-top: 14px;
 	margin-right: 6px;
 	
+	padding: 0;
 }
+#system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn .egenskaper ul
+{
+	padding-left:0px;	
+
+}
+
 
 #system #SectionSystem #systemtop #EttHundraArton tr td #boxmednamn p.siffrauppe{
 	text-align: left;

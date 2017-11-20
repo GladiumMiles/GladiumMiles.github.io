@@ -1,0 +1,227 @@
+*{
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: "Rex Light";
+	src: url(rexlight.otf);		
+}
+@font-face {
+	font-family: nevis;
+	src: url(nevis.ttf);		
+}
+body{
+	background-color: #ccc;
+
+
+}
+header{
+	width: 100%;	
+}
+header #overheader{
+	padding-bottom: 10px;
+	width: 100%;
+	display: block;
+	background-color:#FFF500;
+	height: 37px;
+}
+header section figure{
+	background-color:#FFF500;
+	
+	display: block;
+  	
+}
+header section figure img{
+	/*max-width: 25%;*/
+	display: block;
+	width: 360px;
+	float: left;
+	background-color:#FFF500;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+header section figure img.Hamburgare{
+	width: 25px;
+	margin-top: 6px;
+	display:none;
+}
+header section nav {
+	width: 100%;
+	
+	background-color: black;  /* Ställer in bakgrundsfärgen på navbaren */
+}
+header section nav ul {
+	list-style-type:none; /* tar bort punkterna från högersidan av listan */
+	
+	padding-left :0px; /* Nollställer padding */
+}
+
+
+header section nav ul li {
+	float: left;	/* Placerar lielementen till vänster */
+	position:relative;
+	margin: 0 auto;	
+}
+
+header section nav ul li a {
+	height:24px;
+	width:125.6px;
+	padding: 12.5px 0px 5px;
+	font-size:14px;
+	line-height: 24px;
+	
+	font-family: nevis;
+	font-weight: bold;	
+	text-align:center;
+	text-decoration:none;
+	text-transform: uppercase;
+	display: block;
+	
+	border-bottom: 5px solid transparent;
+	background-color: #FFF500;
+	color: black;
+	
+	
+}
+header section nav ul li .tjocklank {
+	width:165.6px;
+	
+}
+header section nav ul li a:hover{
+	color: #0800D3;
+	border-color: #0800D3;
+	z-index: -1;
+	
+}
+
+
+header section nav ul li ul {
+	display:none;
+	z-index: 1000;
+	
+}
+
+header section nav ul li:hover ul {
+	display:block;
+	position: absolute;
+	z-index: 1000;
+		
+}
+
+
+header section nav ul li:hover ul li a{
+	height: 35px;
+	display:block;
+	text-align:left;
+	padding-left: 10px;
+	font-size: 70%;
+	padding-bottom: 0px;
+	text-transform: none;
+	width:115.6px;
+	line-height: 35px;
+	z-index: 1000;
+	
+}
+header section nav ul li:hover ul li .tjocklank{
+	width:155.6px;
+	
+}
+
+
+header section nav ul li:hover ul li a:hover{
+	background-color: #00D3FF;	
+	color:#000000;
+}
+body #statistiken{
+	background-color: white;
+	width: 80%;
+	height: 600px;
+
+}
+body #statistiken section h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: arial;
+	padding:20px 0 20px 0;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+body #statistiken section section h2{
+	font-size: 30px;
+	font-family: arial;
+	margin-left: 20px;
+
+}
+body #statistiken section section figure{
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: white;
+
+}
+body #statistiken section section img{
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	background-color: white;
+
+}
+body #statistiken section .statright{
+	width: 49%;
+	
+	height: 600px;
+	float: right;
+}
+body #statistiken section .statleft{
+	width: 49%;
+	border-right: 2px solid #ccc;
+	float: left;
+	height: 600px;
+
+}
+body #statistiken section section ul{
+	float: left;
+	width: 50%;
+	list-style-type: none;
+	font-family: helvetica;
+	font-size: 18px;
+	padding-left: 80px;
+	
+}
+body #statistiken section section li{
+	margin-top: 10px;
+
+}
+body #statistiken section section li:hover{
+	font-weight: bold;
+
+}
+body #statistiken section section ul li .varde{
+	float: right;
+	padding-right: 20px;
+	
+
+}
+body #statistiken section section .infounder section{
+	float: left;
+	
+}
+body #statistiken section section .infounder section p{
+	font-size: 24px;
+	float: left;
+	
+	font-weight: bold;
+	font-family: Arial;
+	margin-top: -100px;
+	text-align: center;
+	
+	width: 180px;
+}
+body #statistiken section section .infounder section p .mindretext{
+	font-size: 18px;
+
+
+}

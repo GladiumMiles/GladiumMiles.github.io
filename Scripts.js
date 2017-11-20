@@ -6,63 +6,83 @@
 $(function() {
   $('.Ickemetaller').hover(function() {
     $('#color').css('background-color', '#FFF500');
+   // $('.key6').css('border', 'solid 1px white');	
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key6').css('border', '');
   });
     $('.Alkalimetaller').hover(function() {
     $('#color').css('background-color', '#FF0000');
+   // $('.key1').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key1').css('border', '');
   });
      $('.Jordart').hover(function() {
     $('#color').css('background-color', '#FF7600');
+   // $('.key2').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key2').css('border', '');
   });
       $('.Adelgaser').hover(function() {
     $('#color').css('background-color', '#2E00B4');
+   // $('.key8').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key8').css('border', '');
   });
       $('.Overgang').hover(function() {
     $('#color').css('background-color', '#9e9999');
+   // $('.key3').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key3').css('border', '');
   });
       $('.Post').hover(function() {
     $('#color').css('background-color', '#006B2A');
+   // $('.key4').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key4').css('border', '');
   });
       $('.Halv').hover(function() {
     $('#color').css('background-color', '#00F70C');
+   // $('.key5').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key5').css('border', '');
   });
       $('.Lant').hover(function() {
-    $('#color').css('background-color', '#FF00ED');
+   // $('#color').css('background-color', '#FF00ED');
+    $('.key9').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key9').css('border', '');
   });
         $('.Halogener').hover(function() {
     $('#color').css('background-color', '#09D7E8');
+   // $('.key7').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key7').css('border', '');
   });
         $('.Actnid').hover(function() {
     $('#color').css('background-color', '#C805B5');
+   // $('.key10').css('border', 'solid 1px white');
   }, function() {
     // on mouseout, reset the background colour
     $('#color').css('background-color', '');
+    $('.key10').css('border', '');
   });
           $('.oidentifierad').hover(function() {
     $('#color').css('background-color', '#FFFFFF');

@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listor</title>
+<link href="listor.css" rel="stylesheet" type="text/css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    function bild(id1,id2,id3,id4,id5,id6,id7,id,id9,id10)
+{
+    document.getElementById(id7).style.display = 'none';
+    document.getElementById(id6).style.display = 'none';
+    document.getElementById(id5).style.display = 'none';
+    document.getElementById(id4).style.display = 'none';
+    document.getElementById(id3).style.display = 'none';
+    document.getElementById(id2).style.display = 'none';
+    document.getElementById(id1).style.display = 'block';
+};
+
+
+</script>
+<script>
+      function text(x1,x2)
+{
+    
+    document.getElementById(x2).style.display = 'none';
+    document.getElementById(x1).style.display = 'block';
+};  
+
+
+</script>
+</head>
+
+<body>
+<header>
+  <section id="overheader">
+        <a href="../index.html">
+        <figure>
+            <img class="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
+            <img src="periodiska_systemet3.png" alt="#">
+        </figure></a> 
+        <nav>
+             <ul>
+                            <li><a href="#">Systemet</a>
+                                <ul>
+                                    
+                                    <li><a href="36Boxar.html">32 Kolummn</a></li>
+                                    <li><a href="Block.html">Block</a></li>
+                                    <li><a href="#">Elektronnegativitet</a></li>
+                                     
+                                </ul>
+                            </li>
+                            <li><a href="#" class="tjocklank">Grupper</a>
+                            <ul>
+                            <!-- Kommentar-->
+                                    <li><a href="#" class="tjocklank">Alkalimetaller</a>
+                                    
+                                    </li>
+                                    <li><a href="#" class="tjocklank">Alkaliska Jordartsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Övergångsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Borgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kolgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kvävegruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Syregruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Halogenerna</a></li>
+                                    <li><a href="#" class="tjocklank">Ädelgaserna</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Perioder</a>
+                            <ul>
+                                    <li><a href="#">1 K-Skalet</a></li>
+                                    <li><a href="#">2 L-Skalet</a></li>
+                                    <li><a href="#">3 M-Skalet</a></li>
+                                    <li><a href="#">4 N-Skalet</a></li>
+                                    <li><a href="#">5 O-Skalet</a></li>
+                                    <li><a href="#">6 P-Skalet</a></li>
+                                    <li><a href="#">7 Q-Skalet</a></li>
+                                        
+                                </ul>
+                            </li>
+                            <li><a href="#">Listor</a>
+                            <ul>    
+                                    
+                                    <li><a href="#">Atommassa</a></li>
+                                    <li><a href="#">Atomradie</a></li>
+                                    <li><a href="#">Densistet</a></li>
+                                    <li><a href="#">Kokpunkt</a></li>
+                                    <li><a href="#">Smältpunkt</a></li>
+                                    
+                            </ul>
+                            </li>  
+                            <li><a href="#">Om</a>
+                            
+                            </li>    
+                        </ul>
+                    </nav>
+   </section>
+   <section id="statistiken">
+        <section class="stat1">
+            <h1>Smältpunkt</h1>
+            <section class="statright">
+                <h2>Högst</h2>
+                <figure>
+                <img id="Kol" src="../Bilder/KolIcon.png">
+                <img id="Tungsten" src="../Bilder/WolframIcon.png" style="display: none">    
+                <img id="Rhenium" src="../Bilder/RheniumIcon.png" style="display: none">
+                <img id="Osmium" src="../Bilder/OsmiumIcon.png" style="display: none">
+                <img id="Tantal" src="../Bilder/TantalIcon.png" style="display: none">
+                <img id="Molybden" src="../Bilder/MolybdenIcon.png" style="display: none">
+                <img id="Niob" src="../Bilder/NiobIcon.png" style="display: none">
+                <img id="Iridium" src="../Bilder/IridiumIcon.png" style="display: none">
+                <img id="Rutenium" src="../Bilder/RuteniumVateIcon.png" style="display: none">
+                <img id="Hafnium" src="../Bilder/HafniumIcon.png" style="display: none">
+                </figure>
+                <ul>
+                    <li onmouseover="bild('Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium')", 
+                        onmouseover="text('TungstenInfo', 'KolInfo')">
+                        Kol <span class="varde"> 3500°C</span></li>
+                    
+                    <li onmouseover="bild('Tungsten', 'Kol', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium')"
+                        onmouseover="text('TungstenInfo', 'KolInfo')">           
+                        Tungsten <span class="varde"> 3422°C</span></li>
+
+                    <li onmouseover="bild('Rhenium', 'Kol', 'Tungsten', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
+                                    text('TungstenInfo', 'KolInfo')"> 
+                        Rhenium <span class="varde"> 3186°C</span></li>
+
+                    <li onmouseover="bild('Osmium', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
+                                    text('TungstenInfo', 'KolInfo')">
+                        Osmium <span class="varde"> 3033°C</span></li>
+
+                    <li onmouseover="bild('Tantal', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
+                                    text('TungstenInfo', 'KolInfo')">
+                        Tantal <span class="varde"> 3017°C</span></li>
+
+                    <li onmouseover="bild('Molybden', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
+                                    text('TungstenInfo', 'KolInfo')">
+                        Molybden <span class="varde"> 2623°C</span></li>
+
+                    <li onmouseover="bild('Niob', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Iridium', 'Rutenium', 'Hafnium'), 
+                                    text('TungstenInfo', 'KolInfo')" >
+                        Niob <span class="varde"> 2477°C</span></li>
+
+                    <li>
+                        Iridium <span class="varde"> 2446°C</span></li>
+
+                    <li>
+                        Rutenium <span class="varde"> 2334°C</span></li>
+
+                    <li>Hafnium <span class="varde"> 2233°C</span></li>
+                </ul>    
+                    <section class="infounder">
+                        <section class="KolInfo" style="display: block">
+                            <p>#6 |<span class="mindretext"> Kol</span> </p>
+                            <p><br><span class="mindretext">Diatomisk Ickemetall</span></p>  
+                        </section>
+                        <section class="TungstenInfo" style="display: none">
+                            <p>#74 |<span class="mindretext"> Tungsten</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>                        
+                </section> <!--infounder --> 
+            </section>   
+            <section class="statleft">
+                <h2>Lägst</h2>
+                <figure>
+                <img id="Helium" src="../Bilder/HeliumIcon.png">
+                <img id="Vate" src="../Bilder/VateIcon.png" style="display: none">    
+                <img id="Neon" src="../Bilder/NeonIcon.png" style="display: none">
+                <img id="Fluor" src="../Bilder/FluorIcon.png" style="display: none">
+                <img id="Syre" src="../Bilder/SyreIcon.png" style="display: none">
+                <img id="Kvave" src="../Bilder/KvaveIcon.png" style="display: none">
+                <img id="Argon" src="../Bilder/ArgonIcon.png" style="display: none">
+                <img id="Krypton" src="../Bilder/KryptonIcon.png" style="display: none">
+                <img id="Xenon" src="../Bilder/XenonIcon.png" style="display: none">
+                <img id="Klor" src="../Bilder/KlorIcon.png" style="display: none">
+                </figure>
+                <ul>
+                    <li>Helium <span class="varde"> -272°C</span></li>
+                    <li>Väte <span class="varde"> -259°C</span></li>
+                    <li>Neon <span class="varde"> -249°C</span></li>
+                    <li>Fluor <span class="varde"> -220°C</span></li>
+                    <li>Syre <span class="varde"> -219°C</span></li>
+                    <li>Kväve <span class="varde"> -210°C</span></li>
+                    <li>Argon <span class="varde"> -189°C</span></li>
+                    <li>Krypton <span class="varde"> -158°C</span></li>
+                    <li>Xenon <span class="varde"> -112°C</span></li>
+                    <li>Klor <span class="varde"> -102°C</span></li> 
+                </ul>
+                <section class="infounder">
+                    <section class="HeliumInfo">
+                       <p>#2 |<span class="mindretext"> Helium </span> </p>
+                       <p><br><span class="mindretext">Ädelgas</span></p>
+                    </section> 
+                </section> <!--infounder -->
+            </section> <!-- statleft -->
+      
+             
+        </section> <!-- stat1 -->
+
+
+
+
+   </section> <!-- Statistken -->
+</header>
+</body>
+</html>
