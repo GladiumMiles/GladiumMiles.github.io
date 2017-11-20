@@ -9,8 +9,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
-    function bild(id1,id2,id3,id4,id5,id6,id7,id,id9,id10)
+    function bild(id1,id2,id3,id4,id5,id6,id7,id8,id9,id10)
 {
+    document.getElementById(id10).style.display = 'none';
+    document.getElementById(id9).style.display = 'none';
+    document.getElementById(id8).style.display = 'none';
     document.getElementById(id7).style.display = 'none';
     document.getElementById(id6).style.display = 'none';
     document.getElementById(id5).style.display = 'none';
@@ -23,11 +26,18 @@
 
 </script>
 <script>
-      function text(x1,x2)
+      function text(id1,id2,id3,id4,id5,id6,id7,id8,id9,id10)
 {
-    
-    document.getElementById(x2).style.display = 'none';
-    document.getElementById(x1).style.display = 'block';
+    document.getElementById(id10).style.display = 'none';
+    document.getElementById(id9).style.display = 'none';
+    document.getElementById(id8).style.display = 'none';
+    document.getElementById(id7).style.display = 'none';
+    document.getElementById(id6).style.display = 'none';
+    document.getElementById(id5).style.display = 'none';
+    document.getElementById(id4).style.display = 'none';
+    document.getElementById(id3).style.display = 'none';
+    document.getElementById(id2).style.display = 'none';
+    document.getElementById(id1).style.display = 'block';
 };  
 
 
@@ -112,55 +122,90 @@
                 <img id="Molybden" src="../Bilder/MolybdenIcon.png" style="display: none">
                 <img id="Niob" src="../Bilder/NiobIcon.png" style="display: none">
                 <img id="Iridium" src="../Bilder/IridiumIcon.png" style="display: none">
-                <img id="Rutenium" src="../Bilder/RuteniumVateIcon.png" style="display: none">
+                <img id="Rutetium" src="../Bilder/RutheniumIcon.png" style="display: none">
                 <img id="Hafnium" src="../Bilder/HafniumIcon.png" style="display: none">
                 </figure>
                 <ul>
-                    <li onmouseover="bild('Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium')", 
-                        onmouseover="text('TungstenInfo', 'KolInfo')">
+                    <li onmouseover="bild('Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
                         Kol <span class="varde"> 3500°C</span></li>
                     
-                    <li onmouseover="bild('Tungsten', 'Kol', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium')"
-                        onmouseover="text('TungstenInfo', 'KolInfo')">           
+                    <li onmouseover="bild('Tungsten', 'Kol', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium'),
+                        text('TungstenInfo', 'KolInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">           
                         Tungsten <span class="varde"> 3422°C</span></li>
 
-                    <li onmouseover="bild('Rhenium', 'Kol', 'Tungsten', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
-                                    text('TungstenInfo', 'KolInfo')"> 
+                    <li onmouseover="bild('Rhenium', 'Kol', 'Tungsten', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('RheniumInfo', 'KolInfo', 'TungstenInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')"> 
                         Rhenium <span class="varde"> 3186°C</span></li>
 
-                    <li onmouseover="bild('Osmium', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
-                                    text('TungstenInfo', 'KolInfo')">
+                    <li onmouseover="bild('Osmium', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'), 
+                        text('OsmiumInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
                         Osmium <span class="varde"> 3033°C</span></li>
 
-                    <li onmouseover="bild('Tantal', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Molybden', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
-                                    text('TungstenInfo', 'KolInfo')">
+                    <li onmouseover="bild('Tantal', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Molybden', 'Niob', 'Iridium', 'Rutetium'),
+                        text('TantalInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
                         Tantal <span class="varde"> 3017°C</span></li>
 
-                    <li onmouseover="bild('Molybden', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Niob', 'Iridium', 'Rutenium', 'Hafnium'), 
-                                    text('TungstenInfo', 'KolInfo')">
+                    <li onmouseover="bild('Molybden', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Osmium', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('MolybdenInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'OsmiumInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
                         Molybden <span class="varde"> 2623°C</span></li>
 
-                    <li onmouseover="bild('Niob', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Iridium', 'Rutenium', 'Hafnium'), 
-                                    text('TungstenInfo', 'KolInfo')" >
+                    <li onmouseover="bild('Niob', 'Kol', 'Tungsten', 'Rhenium', 'TantalInfo', 'Molybden', 'Osmium', 'Iridium', 'Rutetium', 'Hafnium'), 
+                        text('NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo' )" >
                         Niob <span class="varde"> 2477°C</span></li>
 
-                    <li>
+                    <li onmouseover="bild('Iridium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Rutetium', 'Hafnium'), 
+                    text('IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'RuteniumInfo', 'HafniumInfo' )">
                         Iridium <span class="varde"> 2446°C</span></li>
 
-                    <li>
+                    <li onmouseover="bild('Rutetium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Hafnium'), text('RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'HafniumInfo' )">
                         Rutenium <span class="varde"> 2334°C</span></li>
 
-                    <li>Hafnium <span class="varde"> 2233°C</span></li>
+                    <li onmouseover="bild('Hafnium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Rutetium' ),text('HafniumInfo', 'RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo' )">
+                        Hafnium <span class="varde"> 2233°C</span></li>
                 </ul>    
                     <section class="infounder">
-                        <section class="KolInfo" style="display: block">
+                        <section id="KolInfo" style="display: block">
                             <p>#6 |<span class="mindretext"> Kol</span> </p>
                             <p><br><span class="mindretext">Diatomisk Ickemetall</span></p>  
                         </section>
-                        <section class="TungstenInfo" style="display: none">
+                        <section id="TungstenInfo" style="display: none">
                             <p>#74 |<span class="mindretext"> Tungsten</span> </p>
                             <p><br><span class="mindretext">Övergångsmetall</span></p>  
-                        </section>                        
+                        </section>
+                        <section id="RheniumInfo" style="display: none">
+                            <p>#75 |<span class="mindretext"> Rhenium</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="OsmiumInfo" style="display: none">
+                            <p>#76 |<span class="mindretext"> Osmium</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="TantalInfo" style="display: none">
+                            <p>#73 |<span class="mindretext"> Tantal</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="MolybdenInfo" style="display: none">
+                            <p>#42 |<span class="mindretext"> Molybden</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="NiobInfo" style="display: none">
+                            <p>#41 |<span class="mindretext"> Niob</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="IridiumInfo" style="display: none">
+                            <p>#77 |<span class="mindretext"> Iridium</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="RuteniumInfo" style="display: none">
+                            <p>#44 |<span class="mindretext"> Rutenium</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+                        <section id="HafniumInfo" style="display: none">
+                            <p>#72 |<span class="mindretext"> Hafnium</span> </p>
+                            <p><br><span class="mindretext">Övergångsmetall</span></p>  
+                        </section>
+
                 </section> <!--infounder --> 
             </section>   
             <section class="statleft">
@@ -171,29 +216,93 @@
                 <img id="Neon" src="../Bilder/NeonIcon.png" style="display: none">
                 <img id="Fluor" src="../Bilder/FluorIcon.png" style="display: none">
                 <img id="Syre" src="../Bilder/SyreIcon.png" style="display: none">
-                <img id="Kvave" src="../Bilder/KvaveIcon.png" style="display: none">
+                <img id="Kvave" src="../Bilder/KväveIcon.png" style="display: none">
                 <img id="Argon" src="../Bilder/ArgonIcon.png" style="display: none">
                 <img id="Krypton" src="../Bilder/KryptonIcon.png" style="display: none">
                 <img id="Xenon" src="../Bilder/XenonIcon.png" style="display: none">
                 <img id="Klor" src="../Bilder/KlorIcon.png" style="display: none">
                 </figure>
                 <ul>
-                    <li>Helium <span class="varde"> -272°C</span></li>
-                    <li>Väte <span class="varde"> -259°C</span></li>
-                    <li>Neon <span class="varde"> -249°C</span></li>
-                    <li>Fluor <span class="varde"> -220°C</span></li>
-                    <li>Syre <span class="varde"> -219°C</span></li>
-                    <li>Kväve <span class="varde"> -210°C</span></li>
-                    <li>Argon <span class="varde"> -189°C</span></li>
-                    <li>Krypton <span class="varde"> -158°C</span></li>
-                    <li>Xenon <span class="varde"> -112°C</span></li>
-                    <li>Klor <span class="varde"> -102°C</span></li> 
-                </ul>
+                    <li onmouseover="bild('Helium', 'Vate', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                        Helium <span class="varde"> -272°C</span></li>
+                    
+                    <li onmouseover="bild('Vate', 'Helium', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('VateInfo', 'HeliumInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">           
+                        Vate <span class="varde"> -259°C</span></li>
+
+                    <li onmouseover="bild('Neon', 'Helium', 'Vate', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('NeonInfo', 'HeliumInfo', 'VateInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')"> 
+                        Neon <span class="varde"> -249°C</span></li>
+
+                    <li onmouseover="bild('Fluor', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'), 
+                        text('FluorInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                        Fluor <span class="varde"> -220°C</span></li>
+
+                    <li onmouseover="bild('Syre', 'Helium', 'Vate', 'Neon', 'Fluor', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('SyreInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                        Syre <span class="varde"> -219°C</span></li>
+
+                    <li onmouseover="bild('Kvave', 'Helium', 'Vate', 'Neon', 'Syre', 'Fluor', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('KvaveInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'FluorInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                        Kvave <span class="varde"> -210°C</span></li>
+
+                    <li onmouseover="bild('Argon', 'Helium', 'Vate', 'Neon', 'SyreInfo', 'Kvave', 'Fluor', 'Krypton', 'Xenon', 'Klor'), 
+                        text('ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo' )" >
+                        Argon <span class="varde"> -189°C</span></li>
+
+                    <li onmouseover="bild('Krypton', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Xenon', 'Klor'), 
+                    text('KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'XenonInfo', 'KlorInfo' )">
+                        Krypton <span class="varde"> -158°C</span></li>
+
+                    <li onmouseover="bild('Xenon', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Klor'), text('XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KlorInfo' )">
+                        Xenon <span class="varde"> -112°C</span></li>
+
+                    <li onmouseover="bild('Klor', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Xenon' ),text('KlorInfo', 'XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo' )">
+                        Klor <span class="varde"> -102°C</span></li>
+                </ul> 
                 <section class="infounder">
-                    <section class="HeliumInfo">
+                    <section id="HeliumInfo">
                        <p>#2 |<span class="mindretext"> Helium </span> </p>
                        <p><br><span class="mindretext">Ädelgas</span></p>
-                    </section> 
+                    </section>
+                    <section id="VateInfo" style="display: none">
+                       <p>#1 |<span class="mindretext"> Väte </span> </p>
+                       <p><br><span class="mindretext">Diatomisk Ickemetall</span></p>
+                    </section>
+                    <section id="NeonInfo" style="display: none">
+                       <p>#10 |<span class="mindretext"> Neon </span> </p>
+                       <p><br><span class="mindretext">Ädelgas</span></p>
+                    </section>
+                    <section id="FluorInfo" style="display: none">
+                       <p>#9 |<span class="mindretext"> Fluor </span> </p>
+                       <p><br><span class="mindretext">Halogen</span></p>
+                    </section>
+                    <section id="SyreInfo" style="display: none">
+                       <p>#8 |<span class="mindretext"> Syre </span> </p>
+                       <p><br><span class="mindretext">Diatomisk Ickemetall</span></p>
+                    </section>
+                    <section id="KvaveInfo" style="display: none">
+                       <p>#7 |<span class="mindretext"> Kväve </span> </p>
+                       <p><br><span class="mindretext">Diatomisk Ickemetall</span></p>
+                    </section>
+                    <section id="ArgonInfo" style="display: none">
+                       <p>#18 |<span class="mindretext"> Argon </span> </p>
+                       <p><br><span class="mindretext">Ädelgas</span></p>
+                    </section>
+                    <section id="KryptonInfo" style="display: none">
+                       <p>#36 |<span class="mindretext"> Krypton </span> </p>
+                       <p><br><span class="mindretext">Ädelgas</span></p>
+                    </section>
+                    <section id="XenonInfo" style="display: none">
+                       <p>#54 |<span class="mindretext"> Xenon </span> </p>
+                       <p><br><span class="mindretext">Ädelgas</span></p>
+                    </section>
+                    <section id="KlorInfo" style="display: none">
+                       <p>#17 |<span class="mindretext"> Klor </span> </p>
+                       <p><br><span class="mindretext">Halogen</span></p>
+                    </section>
+
                 </section> <!--infounder -->
             </section> <!-- statleft -->
       
