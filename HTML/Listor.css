@@ -134,11 +134,21 @@ header section nav ul li:hover ul li a:hover{
 	color:#000000;
 }
 body #statistiken{
-	background-color: white;
+	
 	width: 80%;
-	height: 600px;
+	
+
 
 }
+body #statistiken .stat1, .stat2{
+	background-color: white;
+	height: 600px;
+}
+body #statistiken .stat2{
+	margin-top: 50px;
+
+}
+
 body #statistiken section h1{
 	text-transform: uppercase;
 	font-size: 30px;
@@ -172,14 +182,14 @@ body #statistiken section section img{
 body #statistiken section .statright{
 	width: 49%;
 	
-	height: 600px;
+	height: 500px;
 	float: right;
 }
 body #statistiken section .statleft{
 	width: 49%;
 	border-right: 2px solid #ccc;
 	float: left;
-	height: 600px;
+	height: 500px;
 
 }
 body #statistiken section section ul{
