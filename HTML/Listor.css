@@ -12,11 +12,13 @@
 }
 body{
 	background-color: #ccc;
-
+	
 
 }
 header{
 	width: 100%;	
+	
+
 }
 header #overheader{
 	padding-bottom: 10px;
@@ -24,6 +26,7 @@ header #overheader{
 	display: block;
 	background-color:#FFF500;
 	height: 37px;
+	position: fixed;
 }
 header section figure{
 	background-color:#FFF500;
@@ -140,11 +143,16 @@ body #statistiken{
 
 
 }
-body #statistiken .stat1, .stat2{
+body #statistiken #stat1, #stat2{
 	background-color: white;
 	height: 600px;
 }
-body #statistiken .stat2{
+body #statistiken #stat1{
+	padding-top: 34px;
+
+}
+
+body #statistiken #stat2{
 	margin-top: 50px;
 
 }
@@ -206,7 +214,7 @@ body #statistiken section section li{
 
 }
 body #statistiken section section li:hover{
-	font-weight: bold;
+	
 
 }
 body #statistiken section section ul li .varde{

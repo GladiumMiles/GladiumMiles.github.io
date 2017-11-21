@@ -39,7 +39,21 @@
     document.getElementById(id2).style.display = 'none';
     document.getElementById(id1).style.display = 'block';
 }; 
-
+</script>
+<script>
+      function fetstil(id1,id2,id3,id4,id5,id6,id7,id8,id9,id10)
+{
+    document.getElementById(id10).style.fontWeight = 'normal';
+    document.getElementById(id9).style.fontWeight = 'normal';
+    document.getElementById(id8).style.fontWeight = 'normal';
+    document.getElementById(id7).style.fontWeight = 'normal';
+    document.getElementById(id6).style.fontWeight = 'normal';
+    document.getElementById(id5).style.fontWeight = 'normal';
+    document.getElementById(id4).style.fontWeight = 'normal';
+    document.getElementById(id3).style.fontWeight = 'normal';
+    document.getElementById(id2).style.fontWeight = 'normal';
+    document.getElementById(id1).style.fontWeight = 'bold';
+}; 
 
 </script>
 </head>
@@ -97,8 +111,8 @@
                                     <li><a href="#">Atommassa</a></li>
                                     <li><a href="#">Atomradie</a></li>
                                     <li><a href="#">Densistet</a></li>
-                                    <li><a href="#">Kokpunkt</a></li>
-                                    <li><a href="#">Smältpunkt</a></li>
+                                    <li><a href="#stat2">Kokpunkt</a></li>
+                                    <li><a href="#stat1">Smältpunkt</a></li>
                                     
                             </ul>
                             </li>  
@@ -109,7 +123,7 @@
                     </nav>
    </section>
    <section id="statistiken">
-        <section class="stat1">
+        <section id="stat1">
             <h1>Smältpunkt</h1>
             <section class="statright">
                 <h2>Högst</h2>
@@ -126,42 +140,52 @@
                 <img id="Hafnium" src="../Bilder/HafniumIcon.png" style="display: none">
                 </figure>
                 <ul>
-                    <li id="KolText" onmouseover="bild('Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
-                        text('KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
+                    <li id="1_1HFetstil" onmouseover="bild('Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_1HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')">
                         Kol <span class="varde"> 3500°C</span></li>
                     
-                    <li onmouseover="bild('Tungsten', 'Kol', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
-                        text('TungstenInfo', 'KolInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">           
+                    <li id="1_2HFetstil" onmouseover="bild('Tungsten', 'Kol', 'Rhenium', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('TungstenInfo', 'KolInfo', 'RheniumInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_2HFetstil', '1_1HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')">           
                         Tungsten <span class="varde"> 3422°C</span></li>
 
-                    <li onmouseover="bild('Rhenium', 'Kol', 'Tungsten', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
-                        text('RheniumInfo', 'KolInfo', 'TungstenInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')"> 
+                    <li id="1_3HFetstil" onmouseover="bild('Rhenium', 'Kol', 'Tungsten', 'Osmium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('RheniumInfo', 'KolInfo', 'TungstenInfo', 'OsmiumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_3HFetstil', '1_1HFetstil', '1_2HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')"> 
                         Rhenium <span class="varde"> 3186°C</span></li>
 
-                    <li onmouseover="bild('Osmium', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'), 
-                        text('OsmiumInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
+                    <li id="1_4HFetstil" onmouseover="bild('Osmium', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'), 
+                        text('OsmiumInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_4HFetstil', '1_1HFetstil', '1_2HFetstil', '1_3HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')">
                         Osmium <span class="varde"> 3033°C</span></li>
 
-                    <li onmouseover="bild('Tantal', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
-                        text('TantalInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
+                    <li id="1_5HFetstil" onmouseover="bild('Tantal', 'Kol', 'Tungsten', 'Rhenium', 'Osmium', 'Molybden', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('TantalInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'OsmiumInfo', 'MolybdenInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_5HFetstil', '1_1HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')">
                         Tantal <span class="varde"> 3017°C</span></li>
 
-                    <li onmouseover="bild('Molybden', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Osmium', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
-                        text('MolybdenInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'OsmiumInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo')">
+                    <li id="1_6HFetstil" onmouseover="bild('Molybden', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Osmium', 'Niob', 'Iridium', 'Rutetium', 'Hafnium'),
+                        text('MolybdenInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'OsmiumInfo', 'NiobInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo'),
+                        fetstil('1_6HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_1HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')">
                         Molybden <span class="varde"> 2623°C</span></li>
 
-                    <li onmouseover="bild('Niob', 'Kol', 'Tungsten', 'Rhenium', 'TantalInfo', 'Molybden', 'Osmium', 'Iridium', 'Rutetium', 'Hafnium'), 
-                        text('NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo' )" >
+                    <li id="1_7HFetstil" onmouseover="bild('Niob', 'Kol', 'Tungsten', 'Rhenium', 'TantalInfo', 'Molybden', 'Osmium', 'Iridium', 'Rutetium', 'Hafnium'), 
+                        text('NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'IridiumInfo', 'RuteniumInfo', 'HafniumInfo' ),
+                        fetstil('1_7HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_1HFetstil', '1_8HFetstil', '1_9HFetstil', '1_10HFetstil')" >
                         Niob <span class="varde"> 2477°C</span></li>
 
-                    <li onmouseover="bild('Iridium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Rutetium', 'Hafnium'), 
-                    text('IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'RuteniumInfo', 'HafniumInfo' )">
+                    <li id="1_8HFetstil" onmouseover="bild('Iridium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Rutetium', 'Hafnium'), 
+                    text('IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'RuteniumInfo', 'HafniumInfo' ),
+                        fetstil('1_8HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_1HFetstil', '1_9HFetstil', '1_10HFetstil')">
                         Iridium <span class="varde"> 2446°C</span></li>
 
-                    <li onmouseover="bild('Rutetium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Hafnium'), text('RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'HafniumInfo' )">
+                    <li id="1_9HFetstil" onmouseover="bild('Rutetium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Hafnium'), text('RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo', 'HafniumInfo' ),
+                        fetstil('1_9HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_1HFetstil', '1_10HFetstil')">
                         Rutenium <span class="varde"> 2334°C</span></li>
 
-                    <li onmouseover="bild('Hafnium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Rutetium' ),text('HafniumInfo', 'RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo' )">
+                    <li id="1_10HFetstil" onmouseover="bild('Hafnium', 'Niob', 'Kol', 'Tungsten', 'Rhenium', 'Tantal', 'Molybden', 'Osmium', 'Iridium', 'Rutetium' ),text('HafniumInfo', 'RuteniumInfo', 'IridiumInfo', 'NiobInfo', 'KolInfo', 'TungstenInfo', 'RheniumInfo', 'TantalInfo', 'MolybdenInfo', 'OsmiumInfo' ),
+                        fetstil('1_10HFetstil', '1_2HFetstil', '1_3HFetstil', '1_4HFetstil', '1_5HFetstil', '1_6HFetstil', '1_7HFetstil', '1_8HFetstil', '1_9HFetstil', '1_1HFetstil')">
                         Hafnium <span class="varde"> 2233°C</span></li>
                 </ul>    
                     <section class="infounder">
@@ -223,42 +247,52 @@
                 <img id="Klor" src="../Bilder/KlorIcon.png" style="display: none">
                 </figure>
                 <ul>
-                    <li onmouseover="bild('Helium', 'Vate', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
-                        text('HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                    <li id="1_1Fetstil" onmouseover="bild('Helium', 'Vate', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_1Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')">
                         Helium <span class="varde"> -272°C</span></li>
                     
-                    <li onmouseover="bild('Vate', 'Helium', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
-                        text('VateInfo', 'HeliumInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">           
-                        Vate <span class="varde"> -259°C</span></li>
+                    <li id="1_2Fetstil" onmouseover="bild('Vate', 'Helium', 'Neon', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('VateInfo', 'HeliumInfo', 'NeonInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_2Fetstil', '1_1Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')">           
+                        Väte <span class="varde"> -259°C</span></li>
 
-                    <li onmouseover="bild('Neon', 'Helium', 'Vate', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
-                        text('NeonInfo', 'HeliumInfo', 'VateInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')"> 
+                    <li id="1_3Fetstil" onmouseover="bild('Neon', 'Helium', 'Vate', 'Fluor', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('NeonInfo', 'HeliumInfo', 'VateInfo', 'FluorInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_3Fetstil', '1_2Fetstil', '1_1Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')"> 
                         Neon <span class="varde"> -249°C</span></li>
 
-                    <li onmouseover="bild('Fluor', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'), 
-                        text('FluorInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                    <li id="1_4Fetstil" onmouseover="bild('Fluor', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'), 
+                        text('FluorInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_4Fetstil', '1_2Fetstil', '1_3Fetstil', '1_1Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')">
                         Fluor <span class="varde"> -220°C</span></li>
 
-                    <li onmouseover="bild('Syre', 'Helium', 'Vate', 'Neon', 'Fluor', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
-                        text('SyreInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                    <li id="1_5Fetstil" onmouseover="bild('Syre', 'Helium', 'Vate', 'Neon', 'Fluor', 'Kvave', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('SyreInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'FluorInfo', 'KvaveInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_5Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_1Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')">
                         Syre <span class="varde"> -219°C</span></li>
 
-                    <li onmouseover="bild('Kvave', 'Helium', 'Vate', 'Neon', 'Syre', 'Fluor', 'Argon', 'Krypton', 'Xenon', 'Klor'),
-                        text('KvaveInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'FluorInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo')">
+                    <li id="1_6Fetstil" onmouseover="bild('Kvave', 'Helium', 'Vate', 'Neon', 'Syre', 'Fluor', 'Argon', 'Krypton', 'Xenon', 'Klor'),
+                        text('KvaveInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'FluorInfo', 'ArgonInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo'),
+                        fetstil('1_6Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_1Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')">
                         Kvave <span class="varde"> -210°C</span></li>
 
-                    <li onmouseover="bild('Argon', 'Helium', 'Vate', 'Neon', 'SyreInfo', 'Kvave', 'Fluor', 'Krypton', 'Xenon', 'Klor'), 
-                        text('ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo' )" >
+                    <li id="1_7Fetstil" onmouseover="bild('Argon', 'Helium', 'Vate', 'Neon', 'SyreInfo', 'Kvave', 'Fluor', 'Krypton', 'Xenon', 'Klor'), 
+                        text('ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KryptonInfo', 'XenonInfo', 'KlorInfo' ),
+                        fetstil('1_7Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_1Fetstil', '1_8Fetstil', '1_9Fetstil', '1_10Fetstil')" >
                         Argon <span class="varde"> -189°C</span></li>
 
-                    <li onmouseover="bild('Krypton', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Xenon', 'Klor'), 
-                    text('KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'XenonInfo', 'KlorInfo' )">
+                    <li id="1_8Fetstil" onmouseover="bild('Krypton', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Xenon', 'Klor'), 
+                    text('KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'XenonInfo', 'KlorInfo' ),
+                        fetstil('1_8Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_1Fetstil', '1_9Fetstil', '1_10Fetstil')">
                         Krypton <span class="varde"> -158°C</span></li>
 
-                    <li onmouseover="bild('Xenon', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Klor'), text('XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KlorInfo' )">
+                    <li id="1_9Fetstil" onmouseover="bild('Xenon', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Klor'), text('XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo', 'KlorInfo' ),
+                        fetstil('1_9Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_1Fetstil', '1_10Fetstil')">
                         Xenon <span class="varde"> -112°C</span></li>
 
-                    <li onmouseover="bild('Klor', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Xenon' ),text('KlorInfo', 'XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo' )">
+                    <li id="1_10Fetstil" onmouseover="bild('Klor', 'Argon', 'Helium', 'Vate', 'Neon', 'Syre', 'Kvave', 'Fluor', 'Krypton', 'Xenon' ),text('KlorInfo', 'XenonInfo', 'KryptonInfo', 'ArgonInfo', 'HeliumInfo', 'VateInfo', 'NeonInfo', 'SyreInfo', 'KvaveInfo', 'FluorInfo' ),
+                        fetstil('1_10Fetstil', '1_2Fetstil', '1_3Fetstil', '1_4Fetstil', '1_5Fetstil', '1_6Fetstil', '1_7Fetstil', '1_8Fetstil', '1_9Fetstil', '1_1Fetstil')">
                         Klor <span class="varde"> -102°C</span></li>
                 </ul> 
                 <section class="infounder">
@@ -308,13 +342,13 @@
       
              
         </section> <!-- stat1 -->
-        <section class="stat2">
+        <section id="stat2">
             <h1>Kokpunkt</h1>
             <section class="statright">
                 <h2>Högst</h2>
                 <figure>
-                <img id="2_1HBild" src="../Bilder/RheniumIcon.png">
-                <img id="2_2HBild" src="../Bilder/WolframIcon.png" style="display: none">    
+                <img id="2_1HBild" src="../Bilder/WolframIcon.png">
+                <img id="2_2HBild" src="../Bilder/RheniumIcon.png" style="display: none">    
                 <img id="2_3HBild" src="../Bilder/RutherfordiumIcon.png" style="display: none">
                 <img id="2_4HBild" src="../Bilder/TantalIcon.png" style="display: none">
                 <img id="2_5HBild" src="../Bilder/OsmiumIcon.png" style="display: none">
@@ -327,41 +361,41 @@
                 <ul>
                     <li onmouseover="bild('2_1HBild', '2_2HBild', '2_3HBild', '2_5HBild', '2_4HBild', '2_6HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'),
                         text('2_1HInfo', '2_2HInfo', '2_3HInfo', '2_5HInfo', '2_4HInfo', '2_6HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')">
-                        Rhenium <span class="varde"> 3500°C</span></li>
+                        Tungsten <span class="varde"> 5930°C</span></li>
                     
                     <li onmouseover="bild('2_2HBild', '2_1HBild', '2_3HBild', '2_5HBild', '2_4HBild', '2_6HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'),
                         text('2_2HInfo', '2_1HInfo', '2_3HInfo', '2_5HInfo', '2_4HInfo', '2_6HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')">           
-                        Tungsten <span class="varde"> 3422°C</span></li>
+                        Rhenium <span class="varde"> 5630°C</span></li>
 
                     <li onmouseover="bild('2_3HBild', '2_1HBild', '2_2HBild', '2_5HBild', '2_4HBild', '2_6HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'),
                         text('2_3HInfo', '2_1HInfo', '2_2HInfo', '2_5HInfo', '2_4HInfo', '2_6HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')"> 
-                        Rutherfordium <span class="varde"> 3186°C</span></li>
+                        Rutherfordium <span class="varde"> 5500°C</span></li>
 
                     <li onmouseover="bild('2_4HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_5HBild', '2_6HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'),
                         text('2_4HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_5HInfo', '2_6HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')">
-                        Tantal <span class="varde"> 3017°C</span></li>
+                        Tantal <span class="varde"> 5458°C</span></li>
 
                     <li onmouseover="bild('2_5HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HBild', '2_6HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'), 
                         text('2_5HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_6HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')">
-                        Osmium <span class="varde"> 3033°C</span></li>
+                        Osmium <span class="varde"> 5012°C</span></li>
 
                     <li onmouseover="bild('2_6HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HBild', '2_5HBild', '2_7HBild', '2_8HBild', '2_9HBild', '2_10HBild'),
                         text('2_6HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_5HInfo', '2_7HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo')">
-                        Torium <span class="varde"> 2623°C</span></li>
+                        Torium <span class="varde"> 4788°C</span></li>
 
                     <li onmouseover="bild('2_7HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HInfo', '2_6HBild', '2_5HBild', '2_8HBild', '2_9HBild', '2_10HBild'), 
                         text('2_7HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_6HInfo', '2_5HInfo', '2_8HInfo', '2_9HInfo', '2_10HInfo' )" >
-                        Niob <span class="varde"> 2477°C</span></li>
+                        Niob <span class="varde"> 4744°C</span></li>
 
                     <li onmouseover="bild('2_8HBild', '2_7HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HBild', '2_6HBild', '2_5HBild', '2_9HBild', '2_10HBild'), 
                     text('2_8HInfo', '2_7HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_6HInfo', '2_5HInfo', '2_9HInfo', '2_10HInfo' )">
-                        Molybden <span class="varde"> 2446°C</span></li>
+                        Molybden <span class="varde"> 4639°C</span></li>
 
                     <li onmouseover="bild('2_9HBild', '2_7HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HBild', '2_6HBild', '2_5HBild', '2_8HBild', '2_10HBild'), text('2_9HInfo', '2_8HInfo', '2_7HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_6HInfo', '2_5HInfo', '2_10HInfo' )">
-                        Hafnium <span class="varde"> 2334°C</span></li>
+                        Hafnium <span class="varde"> 4603°C</span></li>
 
                     <li onmouseover="bild('2_10HBild', '2_7HBild', '2_1HBild', '2_2HBild', '2_3HBild', '2_4HBild', '2_6HBild', '2_5HBild', '2_8HBild', '2_9HBild' ),text('2_10HInfo', '2_9HInfo', '2_8HInfo', '2_7HInfo', '2_1HInfo', '2_2HInfo', '2_3HInfo', '2_4HInfo', '2_6HInfo', '2_5HInfo' )">
-                        Iridium <span class="varde"> 2233°C</span></li>
+                        Iridium <span class="varde"> 4130°C</span></li>
                 </ul>    
                     <section class="infounder">
                         <section id="2_1HInfo" style="display: block">
