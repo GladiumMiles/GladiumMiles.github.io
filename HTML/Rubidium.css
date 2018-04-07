@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0 auto;
+	
+}
+
+@font-face {
+	font-family: "Rex Light";
+	src: url(rexlight.otf);		
+}
+@font-face {
+	font-family: nevis;
+	src: url(nevis.ttf);		
+}
+body{
+	background-color: black;
+
+}
+header{
+	width: 100%;	
+}
+header #overheader{
+	padding-bottom: 10px;
+	width: 100%;
+	display: block;
+	background-color:#ff0000;
+	height: 37px;
+}
+header section figure{
+	background-color:#ff0000;
+	
+	display: block;
+  	
+}
+header section figure img{
+	/*max-width: 25%;*/
+	display: block;
+	width: 360px;
+	float: left;
+	background-color:#ff0000;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+header section figure img.Hamburgare{
+	width: 25px;
+	margin-top: 6px;
+	display:none;
+}
+header section nav {
+	width: 100%;
+	
+	background-color: black;  /* Ställer in bakgrundsfärgen på navbaren */
+}
+header section nav ul {
+	list-style-type:none; /* tar bort punkterna från högersidan av listan */
+	
+	padding-left :0px; /* Nollställer padding */
+}
+
+
+header section nav ul li {
+	float: left;	/* Placerar lielementen till vänster */
+	position:relative;
+	margin: 0 auto;	
+}
+
+header section nav ul li a {
+	height:24px;
+	width:125.6px;
+	padding: 12.5px 0px 5px;
+	font-size:14px;
+	line-height: 24px;
+	
+	font-family: nevis;
+	font-weight: bold;	
+	text-align:center;
+	text-decoration:none;
+	text-transform: uppercase;
+	display: block;
+	
+	border-bottom: 5px solid transparent;
+	background-color: #ff0000;
+	color: black;
+	
+	
+}
+header section nav ul li .tjocklank {
+	width:165.6px;
+	
+}
+header section nav ul li a:hover{
+	color: #0800D3;
+	border-color: #0800D3;
+	z-index: -1;
+	
+}
+
+
+header section nav ul li ul {
+	display:none;
+	z-index: 1000;
+	
+}
+
+header section nav ul li:hover ul {
+	display:block;
+	position: absolute;
+	z-index: 1000;
+		
+}
+
+
+header section nav ul li:hover ul li a{
+	height: 35px;
+	display:block;
+	text-align:left;
+	padding-left: 10px;
+	font-size: 70%;
+	padding-bottom: 0px;
+	text-transform: none;
+	width:115.6px;
+	line-height: 35px;
+	z-index: 1000;
+	
+}
+header section nav ul li:hover ul li .tjocklank{
+	width:155.6px;
+	
+}
+
+
+header section nav ul li:hover ul li a:hover{
+	background-color: #00D3FF;	
+	color:#000000;
+}
+#content{
+	margin-top: 25px;
+
+}
+#content #ikoner {
+	max-width: 200px;
+	float: left;
+	margin-left: 50px;
+	
+	
+}
+#content #ikoner #nuvarande{
+	width: 200px;
+	height: 200px;
+	margin-left: 5px;
+	
+}
+#content #ikoner #foregaende{
+	width: 50px;
+	height: 50px;
+	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #nasta{
+	width: 50px;
+	height: 50px;
+	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #foregaendeigrupp{
+	width: 50px;
+	height: 50px;
+	float: right;
+	
+}
+#content #ikoner #nastaigrupp{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+}
+#content #namn{
+	
+	
+	margin-left: 50px;
+	
+}
+#content #namn h1{
+	font-size: 75px;
+	color: white;
+	font-family: arial;
+	margin-top: 0px;
+	float: left;
+	
+	width: 680px;
+}
+#content #Egenskaperbox{
+	margin-left: 0px;
+	float: left;
+	
+}
+#content #Egenskaperbox .Egenskaper{
+	
+	padding-left: 15px;
+	
+	float: left;
+		color: #D4B8B9;
+  	font-family:"Rex Light";
+	font-size: 20px;	
+	margin-left: 0px;
+	
+	line-height: 25px;
+}
+span.EgenskaperText {
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+#content #elektronbox{
+	float: left;
+	position: static;
+		max-height: 200px;
+	max-width: 200px;
+	margin-top: 150px;
+	margin-left: 100px;
+	
+	
+}
+ #content #elektronbox #elektronkonfig{
+	
+	position: relative;
+	margin-left: 100px;	
+	
+} 
+#content #elektronbox #elektronkonfig img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	
+}
+	body #stapel{
+		border: 0px solid white;
+		height: 590px;
+		width: 50px;
+		
+		position: fixed;
+		bottom: 0;
+		right: 0;
+}		
+	body #stapel #toppen{
+		
+		background-color: deepskyblue;
+	}
+	body #stapel #mitten{
+		
+		background-color: red;
+	}	
+	body #stapel #botten{
+		background-color: peru;
+		
+	}
+#content  #elektronbox #elektronkonfig img.kskal{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	
+	-webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite; /* Ställer in så att elektronens bild snurrar höger, att det ska ta 10 sekunder för ett varv och att det ska hålla på hela tiden, har gjort det flera gånger för att det ska funka i alla webbläsare */
+}
+#content  #elektronbox #elektronkonfig img.lskal{
+	height: 250px;
+	width: 250px;
+	position: relative;
+	top: -230px;
+	left: -25px;
+	
+	-webkit-animation: spin-right 12s linear infinite;
+     -moz-animation: spin-right 12s linear infinite;
+      -ms-animation: spin-right 12s linear infinite;
+       -o-animation: spin-right 12s linear infinite;
+          animation: spin-right 12s linear infinite;
+}
+#content  #elektronbox #elektronkonfig img.mskal{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: -510px;
+	left: -50px;
+	
+	-webkit-animation: spin-right 14s linear infinite;
+     -moz-animation: spin-right 14s linear infinite;
+      -ms-animation: spin-right 14s linear infinite;
+       -o-animation: spin-right 14s linear infinite;
+          animation: spin-right 14s linear infinite;
+}
+#content  #elektronbox #elektronkonfig img.nskal{
+	height: 350px;
+	width: 350px;
+	position: relative;
+	top: -840px;
+	left: -75px;
+	
+
+	-webkit-animation: spin-right 16s linear infinite;
+     -moz-animation: spin-right 16s linear infinite;
+      -ms-animation: spin-right 16s linear infinite;
+       -o-animation: spin-right 16s linear infinite;
+          animation: spin-right 16s linear infinite;  
+}
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg); /* elektronerna ska snurra i 360 grader */
+  }
+}
+#content  #elektronbox #elektronkonfig img.oskal{
+	height: 400px;
+	width: 400px;
+	position: relative;
+	top: -1220px;
+	left: -100px;
+	
+	
+	-webkit-animation: spin-right 18s linear infinite;
+     -moz-animation: spin-right 18s linear infinite;
+      -ms-animation: spin-right 18s linear infinite;
+       -o-animation: spin-right 18s linear infinite;
+          animation: spin-right 18s linear infinite; 
+}
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg); /* elektronerna ska snurra i 360 grader */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1900px){
+#content #ikoner {
+	max-width: 300px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	
+}
+#content #ikoner #nuvarande{
+	width: 300px;
+	height: 300px;
+	margin-left: 5px;
+	
+}
+#content #ikoner #foregaende{
+	width: 75px;
+	height: 75px;
+	float:left;
+	margin-left: 15px;
+}
+#content #ikoner #nasta{
+	width: 75px;
+	height: 75px;
+	float:left;
+	margin-left: 15px;
+}
+#content #ikoner #foregaendeigrupp{
+	width: 75px;
+	height: 75px;
+	float: right;
+	
+}
+#content #ikoner #nastaigrupp{
+	width: 75px;
+	height: 75px;
+	float: right;
+	margin-top: 15px;
+}
+#content #elektronbox{
+
+	margin-top: 150px;
+	margin-left: 250px;
+}
+#content #elektronbox #elektronkonfig img{
+	height: 75px;
+	width: 75px;
+	position: relative;
+	top: 112.5px;
+	left: 112.5px;
+	
+}
+#content  #elektronbox #elektronkonfig img.kskal{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: -80px;
+	left: 0px;
+
+}
+}
+@media screen and (orientation:portrait) {
+	header #overheader{
+	padding-bottom: 10px;
+	width: 100%;
+	display: block;
+	background-color:#FFF500;
+	height: 67px;
+}
+
+header section .navbar {
+	width: 100px;
+	position: absolute;
+    display: none;
+    left: 0;
+    top: 77px;
+	background-color: yellow;  /* Ställer in bakgrundsfärgen på navbaren */
+}
+header section nav ul {
+	list-style-type:none; /* tar bort punkterna från högersidan av listan */
+	
+	padding-left :0px; /* Nollställer padding */
+}
+
+
+header section nav ul li {
+	float: left;	/* Placerar lielementen till vänster */
+	position:relative;
+	margin: 0 auto;	
+}
+
+
+
+
+header section nav ul li a {
+	height:24px;
+	width:150px;	
+	display: block;
+}
+header section nav ul li .tjocklank {
+	width:150px;
+	
+}
+header #overheader figure img{
+	display: block;
+	width: 520px;
+	float: left;
+	padding-bottom: 2px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 7px;
+}
+header #overheader figure img.Hamburgare{
+	display: block;
+	margin-top: 7px;
+	width: 50px;
+}
+
+
+
+
+
+}
+
+
+
+

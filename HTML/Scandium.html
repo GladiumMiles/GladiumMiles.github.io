@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>21 - Scandium</title>
+<link href="Scandium.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="../Bilder/ScandiumIcon.png">
+    
+    <script>
+        var StapelIntervall;
+        var smalt;
+        var kok;
+        var SmaltHojd;
+        var KokHojd;
+        var KokVarde
+        var RestHojd;
+        StapelIntervall = 6217;
+        smalt = 337;
+        kok = 1032;
+        SmaltHojd = (smalt/StapelIntervall)*590;
+        KokHojd = ((kok-smalt)/StapelIntervall)*590;
+        RestHojd = 590-(SmaltHojd+KokHojd);
+        KokVarde = (kok/StapelIntervall)*600;
+        
+
+        function termometer() {
+            document.getElementById("toppen").style.height = RestHojd + "px";
+            document.getElementById("mitten").style.height = KokHojd + "px";
+            document.getElementById("botten").style.height = SmaltHojd + "px";
+        }
+
+
+
+    </script>
+</head>
+
+<body onLoad="termometer()">
+<header>
+  <section id="overheader" >
+    	<a href="../index.html">
+        <figure>
+            <img class="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
+    		<img src="periodiska_systemet3.png" alt="#">
+    	</figure></a> 
+    	<nav>
+        	 <ul>
+                            <li><a href="#">Systemet</a>
+                                <ul>
+                                    
+                                    <li><a href="36Boxar.html">32 Kolummn</a></li>
+                                    <li><a href="Block.html">Block</a></li>
+                                    <li><a href="#">Elektronnegativitet</a></li>
+                                     
+                                </ul>
+                            </li>
+                            <li><a href="#" class="tjocklank">Grupper</a>
+                            <ul>
+                            <!-- Kommentar-->
+                                    <li><a href="#" class="tjocklank">Alkalimetaller</a>
+                                    
+                                    </li>
+                                    <li><a href="#" class="tjocklank">Alkaliska Jordartsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Övergångsmetallerna</a></li>
+                                    <li><a href="#" class="tjocklank">Borgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kolgruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Kvävegruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Syregruppen</a></li>
+                                    <li><a href="#" class="tjocklank">Halogenerna</a></li>
+                                    <li><a href="#" class="tjocklank">Ädelgaserna</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Perioder</a>
+                            <ul>
+                                    <li><a href="#">1 K-Skalet</a></li>
+                                    <li><a href="#">2 L-Skalet</a></li>
+                                    <li><a href="#">3 M-Skalet</a></li>
+                                    <li><a href="#">4 N-Skalet</a></li>
+                                    <li><a href="#">5 O-Skalet</a></li>
+                                    <li><a href="#">6 P-Skalet</a></li>
+                                    <li><a href="#">7 Q-Skalet</a></li>
+                                        
+                                </ul>
+                            </li>
+                            <li><a href="#">Listor</a>
+                            <ul>	
+                                    
+                                    <li><a href="#">Atommassa</a></li>
+                                    <li><a href="#">Atomradie</a></li>
+                                    <li><a href="#">Densistet</a></li>
+                                    <li><a href="#">Kokpunkt</a></li>
+                                    <li><a href="#">Smältpunkt</a></li>
+                                    
+                            </ul>
+                            </li>  
+                            <li><a href="#">Om</a>
+                            
+                            </li>    
+                        </ul>
+                    </nav>
+   </section>
+</header>
+<section id="content">
+           
+  
+	<section id="ikoner"> <!-- Ikoner för att navigera på sidan. Du kan gå upp och ner i gruppen, frammåt och bakåt i systemet -->
+        	<img src="../Bilder/ScandiumIcon.png" alt="#" id="nuvarande">
+            <a href="Kalcium.html"><img src="../Bilder/KalciumIcon.png" alt="#" id="foregaende"></a>
+            <a href="Titan.html"><img src="../Bilder/TitanIcon.png" alt="#" id="nasta"></a>
+            <a href="#"><img src="../Bilder/Ingenting.png" alt="#" id="foregaendeigrupp"></a>
+            <a href="Yttrium.html"><img src="../Bilder/YttriumIcon.png" alt="#" id="nastaigrupp"></a>
+            
+    
+    </section><!--ikoner-->        
+     	 <section id="Egenskaperbox"> <!-- En box med ämnets egenskaper -->
+         <ul class="Egenskaper" style="list-style-type:none">
+        	
+            <li><span class="EgenskaperText">Atomnummer:</span> 20</li>
+            <li><span class="EgenskaperText">Atommassa:</span> 40,078</li>
+            <li><span class="EgenskaperText">Ämnesklass:</span> Alkalisk Jordartsmetall</li>
+            <li><span class="EgenskaperText">Grupp:</span> 2</li>
+            <li><span class="EgenskaperText">Period:</span> N(4:e Perioden)</li>
+            <li><span class="EgenskaperText">Block:</span> S-blocket</li>
+            <li><span class="EgenskaperText">Aggregationstillstånd:</span> Fast</li>
+            <li><span class="EgenskaperText">Elektronkonfiguration:</span> 2 8 8 2</li>
+            <li><span class="EgenskaperTextD">&nbsp;</span></li>
+        	<li><span class="EgenskaperText">Smältpunkt:</span> 842°C (1115 K)</li>
+            <li><span class="EgenskaperText">Kokpunkt:</span> 1484°C (1757 K)</li>
+            <li><span class="EgenskaperText">Trippelpunkt:</span> N/A</li>
+            <li><span class="EgenskaperText">Kritisk punkt:</span> N/A</li>
+            <li><span class="EgenskaperText">Densitet:</span> 1,55 g/cm3</li>
+            <li><span class="EgenskaperTextD">&nbsp;</span></li>
+            <li><span class="EgenskaperText">Oxidationstillstånd:</span> +II +I</li>
+            <li><span class="EgenskaperText">Elektronnegativitet:</span> 1</li>
+            <li><span class="EgenskaperText">Jonisationspotential:</span> 590 KJ/mol(1:a)</li>
+            <li><span class="EgenskaperText">Kovalent radie:</span> 176+-10 pm</li>
+            <li><span class="EgenskaperText">Van der Waal radie:</span> 231 pm</li>
+        </ul> 
+       </section><!-- Egenskaperbox -->
+               <section id="namn">
+                 <h1>SCANDIUM</h1>
+
+        </section>
+
+
+
+       <section id="elektronbox">
+       <figure id="elektronkonfig"> <!-- Det snurrande elektronskalet med kärnan i -->
+            <img src="../Bilder/Skandium.png" alt="#">
+           <img src="../Bilder/heliumskal.png" class="kskal" alt="#">
+           <img src="../Bilder/neonskal.png" class="lskal" alt="#">
+           <img src="../Bilder/scandiumskal.png" class="mskal" alt="#">
+           <img src="../Bilder/kalciumskal.png" class="nskal" alt="#"> 
+       </figure>
+       </section>
+       <!-- Det snurrande elektronskalet med kärnan i -->
+            
+            
+       
+</section>
+            <div id="stapel">
+                <div id="toppen"></div>
+                <div id="mitten"></div>
+                <div id="botten"></div>
+            </div>  
+            <figure id="stapelvarden">
+                <img src="../Bilder/Stapelvarden.png">
+            </figure>
+
+
+
+</body>
+</html>

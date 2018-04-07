@@ -143,7 +143,7 @@ body #statistiken{
 
 
 }
-body #statistiken #stat1, #stat2{
+body #statistiken #stat1, #stat2, #stat3{
 	background-color: white;
 	height: 600px;
 }
@@ -152,7 +152,7 @@ body #statistiken #stat1{
 
 }
 
-body #statistiken #stat2{
+body #statistiken #stat2, #stat3{
 	margin-top: 50px;
 
 }

@@ -5,12 +5,38 @@
 <title>1 - Vate</title>
 <link href="vate.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="../Bilder/VateIcon.png">
-<script type="text/javascript"></script>
+    
+    <script>
+        var StapelIntervall;
+        var smalt;
+        var kok;
+        var SmaltHojd;
+        var KokHojd;
+        var KokVarde
+        var RestHojd;
+        StapelIntervall = 6217;
+        smalt = 14;
+        kok = 20;
+        SmaltHojd = (smalt/StapelIntervall)*590;
+        KokHojd = ((kok-smalt)/StapelIntervall)*590;
+        RestHojd = 590-(SmaltHojd+KokHojd);
+        KokVarde = (kok/StapelIntervall)*600;
+        
+
+        function termometer() {
+            document.getElementById("toppen").style.height = RestHojd + "px";
+            document.getElementById("mitten").style.height = KokHojd + "px";
+            document.getElementById("botten").style.height = SmaltHojd + "px";
+        }
+
+
+
+    </script>
 </head>
 
-<body background ="bakgrund5.png" Style="background-repeat: repeat-y;">
+<body onLoad="termometer()">
 <header>
-  <section id="overheader">
+  <section id="overheader" >
     	<a href="../index.html">
         <figure>
             <img class="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
@@ -74,6 +100,8 @@
    </section>
 </header>
 <section id="content">
+           
+  
 	<section id="ikoner"> <!-- Ikoner för att navigera på sidan. Du kan gå upp och ner i gruppen, frammåt och bakåt i systemet -->
         	<img src="../Bilder/VateIcon.png" alt="#" id="nuvarande">
             <img src="../Bilder/ingenting.png" alt="#" id="foregaende">
@@ -82,10 +110,10 @@
             <a href="Litium.html"><img src="../Bilder/LitiumIcon.png" alt="#" id="nastaigrupp"></a>
             
     
-    	</section><!--ikoner-->
+    </section><!--ikoner-->        
      	 <section id="Egenskaperbox"> <!-- En box med ämnets egenskaper -->
          <ul class="Egenskaper" style="list-style-type:none">
-        	<li><span class="EgenskaperText">Ämne:</span> Väte</li>
+        	
             <li><span class="EgenskaperText">Atomnummer:</span> 1</li>
             <li><span class="EgenskaperText">Atommassa:</span> 1,00794</li>
             <li><span class="EgenskaperText">Ämnesklass:</span> Icke-Metall</li>
@@ -108,14 +136,32 @@
             <li><span class="EgenskaperText">Van der Waal radie:</span> 120 pm</li>
         </ul> 
        </section><!-- Egenskaperbox -->
+               <section id="namn">
+                 <h1>VÄTE</h1>
+
+        </section>
+
+
+
        <section id="elektronbox">
        <figure id="elektronkonfig"> <!-- Det snurrande elektronskalet med kärnan i -->
        		<img src="../Bilder/Vate.png" alt="#">
            	<img src="../Bilder/kskal.png" class="kskal" alt="#"> 
        </figure>
-       </section> 
+       </section>
+       <!-- Det snurrande elektronskalet med kärnan i -->
+            
+            
+       
 </section>
-
+            <div id="stapel">
+                <div id="toppen"></div>
+                <div id="mitten"></div>
+                <div id="botten"></div>
+            </div>  
+            <figure id="stapelvarden">
+                <img src="../Bilder/Stapelvarden.png">
+            </figure>
 
 
 
