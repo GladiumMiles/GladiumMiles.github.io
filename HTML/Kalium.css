@@ -238,9 +238,9 @@ span.EgenskaperText {
 	
 }
 	body #stapel{
-		border: 0px solid white;
-		height: 590px;
-		width: 50px;
+		border: 1px solid white;
+		height: 95%;
+		width: 2%;
 		
 		position: fixed;
 		bottom: 0;
@@ -257,6 +257,22 @@ span.EgenskaperText {
 	body #stapel #botten{
 		background-color: peru;
 		
+	}
+		body #stapelvarden{
+		height: 95%;
+		width: 10%;
+		bottom: 0;
+		right: 0%;
+		position: fixed;
+	
+	}
+		body #stapelvarden img{
+		max-height: 100%;
+		
+		display: block;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 #content  #elektronbox #elektronkonfig img.kskal{
 	height: 200px;
@@ -375,7 +391,7 @@ span.EgenskaperText {
 #content #elektronbox{
 
 	margin-top: 150px;
-	margin-left: 250px;
+	margin-left: -100px;
 }
 #content #elektronbox #elektronkonfig img{
 	height: 75px;
@@ -393,7 +409,32 @@ span.EgenskaperText {
 	left: 0px;
 
 }
+#content  #elektronbox #elektronkonfig img.lskal{
+	height: 350px;
+	width: 350px;
+	position: relative;
+	top: -410px;
+	left: -25px;
 }
+#content  #elektronbox #elektronkonfig img.mskal{
+	height: 400px;
+	width: 400px;
+	position: relative;
+	top: -790px;
+	left: -50px;
+}
+#content  #elektronbox #elektronkonfig img.nskal{
+	height: 450px;
+	width: 450px;
+	position: relative;
+	top: -1220px;
+	left: -75px;
+}
+}
+
+
+
+
 @media screen and (orientation:portrait) {
 	header #overheader{
 	padding-bottom: 10px;

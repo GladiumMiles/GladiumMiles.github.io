@@ -24,11 +24,11 @@ header #overheader{
 	padding-bottom: 10px;
 	width: 100%;
 	display: block;
-	background-color:#ff0000;
+	background-color:#f29f00;
 	height: 37px;
 }
 header section figure{
-	background-color:#ff0000;
+	background-color:#f29f00;
 	
 	display: block;
   	
@@ -38,7 +38,7 @@ header section figure img{
 	display: block;
 	width: 360px;
 	float: left;
-	background-color:#ff0000;	
+	background-color:#f29f00;	
 	padding-bottom: 5px;
 	padding-top: 5px;
 	padding-left: 10px;
@@ -81,7 +81,7 @@ header section nav ul li a {
 	display: block;
 	
 	border-bottom: 5px solid transparent;
-	background-color: #ff0000;
+	background-color:#f29f00;
 	color: black;
 	
 	
@@ -298,7 +298,7 @@ span.EgenskaperText {
      -moz-animation: spin-right 12s linear infinite;
       -ms-animation: spin-right 12s linear infinite;
        -o-animation: spin-right 12s linear infinite;
-          animation: spin-right 12s linear infinite; 
+          animation: spin-right 12s linear infinite;
 }
 #content  #elektronbox #elektronkonfig img.mskal{
 	height: 300px;
@@ -311,7 +311,7 @@ span.EgenskaperText {
      -moz-animation: spin-right 14s linear infinite;
       -ms-animation: spin-right 14s linear infinite;
        -o-animation: spin-right 14s linear infinite;
-          animation: spin-right 14s linear infinite; 
+          animation: spin-right 14s linear infinite;
 }
 #content  #elektronbox #elektronkonfig img.nskal{
 	height: 350px;

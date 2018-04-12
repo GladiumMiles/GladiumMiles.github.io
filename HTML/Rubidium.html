@@ -17,18 +17,17 @@
         StapelIntervall = 6217;
         smalt = 312;
         kok = 961;
-        SmaltHojd = (smalt/StapelIntervall)*590;
-        KokHojd = ((kok-smalt)/StapelIntervall)*590;
-        RestHojd = 590-(SmaltHojd+KokHojd);
+        SmaltHojd = (smalt/StapelIntervall)*100;
+        KokHojd = ((kok-smalt)/StapelIntervall)*100;
+        RestHojd = 100-(SmaltHojd+KokHojd);
         KokVarde = (kok/StapelIntervall)*600;
         
 
         function termometer() {
-            document.getElementById("toppen").style.height = RestHojd + "px";
-            document.getElementById("mitten").style.height = KokHojd + "px";
-            document.getElementById("botten").style.height = SmaltHojd + "px";
+            document.getElementById("toppen").style.height = RestHojd + "%";
+            document.getElementById("mitten").style.height = KokHojd + "%";
+            document.getElementById("botten").style.height = SmaltHojd + "%";
         }
-
 
 
     </script>
@@ -105,7 +104,7 @@
 	<section id="ikoner"> <!-- Ikoner för att navigera på sidan. Du kan gå upp och ner i gruppen, frammåt och bakåt i systemet -->
         	<img src="../Bilder/RubidiumIcon.png" alt="#" id="nuvarande">
             <a href="Krypton.html"><img src="../Bilder/KryptonIcon.png" alt="#" id="foregaende"></a>
-        	<a href="Rubidium.html"><img src="../Bilder/KalciumIcon.png" alt="#" id="nasta"></a>
+        	<a href="Strontium.html"><img src="../Bilder/StrontiumIcon.png" alt="#" id="nasta"></a>
             <a href="Kalium.html"><img src="../Bilder/KaliumIcon.png" alt="#" id="foregaendeigrupp"></a>
             <a href="Cesium.html"><img src="../Bilder/cesiumIcon.png" alt="#" id="nastaigrupp"></a>
             
@@ -163,7 +162,9 @@
                 <div id="mitten"></div>
                 <div id="botten"></div>
             </div>  
-
+            <figure id="stapelvarden">
+                <img src="../Bilder/Stapelvarden.png">
+            </figure>
 
 
 

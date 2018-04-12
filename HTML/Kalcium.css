@@ -416,6 +416,20 @@ span.EgenskaperText {
 	left: 0px;
 
 }
+#content  #elektronbox #elektronkonfig img.lskal{
+	height: 350px;
+	width: 350px;
+	position: relative;
+	top: -410px;
+	left: -25px;
+}
+#content  #elektronbox #elektronkonfig img.mskal{
+	height: 400px;
+	width: 400px;
+	position: relative;
+	top: -790px;
+	left: -50px;
+}
 }
 @media screen and (orientation:portrait) {
 	header #overheader{

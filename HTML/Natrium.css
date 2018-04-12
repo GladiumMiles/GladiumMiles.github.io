@@ -374,7 +374,7 @@ span.EgenskaperText {
 #content #elektronbox{
 
 	margin-top: 150px;
-	margin-left: 0px;
+	margin-left: -100px;
 }
 #content #elektronbox #elektronkonfig img{
 	height: 75px;
@@ -416,7 +416,7 @@ span.EgenskaperText {
 		right: 0;
 }		
 
-
+}
 
 
 
