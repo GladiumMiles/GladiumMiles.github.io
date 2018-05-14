@@ -29,6 +29,21 @@
             document.getElementById("botten").style.height = SmaltHojd + "px";
         }
 
+        var test = false;
+        function closeMenu() 
+        {
+          
+            if (test == false) 
+            {
+                document.getElementById("navbar").style.display = "block";
+                test = true;
+            }
+            else
+            {
+                document.getElementById("navbar").style.display = "none";
+                test = false;
+            }
+        }
 
 
     </script>
@@ -37,12 +52,12 @@
 <body onLoad="termometer()">
 <header>
   <section id="overheader" >
-    	<a href="../index.html">
+    	
         <figure>
-            <img class="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
-    		<img src="periodiska_systemet3.png" alt="#">
-    	</figure></a> 
-    	<nav>
+            <img onClick="closeMenu()" id="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
+    		<a href="../index.html"><img src="periodiska_systemet3.png" alt="#"></a>
+    	</figure>
+    	<nav id="navbar">
         	 <ul>
                             <li><a href="#">Systemet</a>
                                 <ul>

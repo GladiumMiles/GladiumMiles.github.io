@@ -43,30 +43,30 @@ header section figure img{
 	padding-top: 5px;
 	padding-left: 10px;
 }
-header section figure img.Hamburgare{
+header section figure #Hamburgare{
 	width: 25px;
 	margin-top: 6px;
 	display:none;
 }
-header section nav {
+header section #navbar {
 	width: 100%;
 	
 	background-color: black;  /* Ställer in bakgrundsfärgen på navbaren */
 }
-header section nav ul {
+header section #navbar ul {
 	list-style-type:none; /* tar bort punkterna från högersidan av listan */
 	
 	padding-left :0px; /* Nollställer padding */
 }
 
 
-header section nav ul li {
+header section #navbar ul li {
 	float: left;	/* Placerar lielementen till vänster */
 	position:relative;
 	margin: 0 auto;	
 }
 
-header section nav ul li a {
+header section #navbar ul li a {
 	height:24px;
 	width:125.6px;
 	padding: 12.5px 0px 5px;
@@ -86,11 +86,11 @@ header section nav ul li a {
 	
 	
 }
-header section nav ul li .tjocklank {
+header section #navbar ul li .tjocklank {
 	width:165.6px;
 	
 }
-header section nav ul li a:hover{
+header section #navbar ul li a:hover{
 	color: #0800D3;
 	border-color: #0800D3;
 	z-index: -1;
@@ -98,13 +98,13 @@ header section nav ul li a:hover{
 }
 
 
-header section nav ul li ul {
+header section #navbar ul li ul {
 	display:none;
 	z-index: 1000;
 	
 }
 
-header section nav ul li:hover ul {
+header section #navbar ul li:hover ul {
 	display:block;
 	position: absolute;
 	z-index: 1000;
@@ -112,7 +112,7 @@ header section nav ul li:hover ul {
 }
 
 
-header section nav ul li:hover ul li a{
+header section #navbar ul li:hover ul li a{
 	height: 35px;
 	display:block;
 	text-align:left;
@@ -125,13 +125,13 @@ header section nav ul li:hover ul li a{
 	z-index: 1000;
 	
 }
-header section nav ul li:hover ul li .tjocklank{
+header section #navbar ul li:hover ul li .tjocklank{
 	width:155.6px;
 	
 }
 
 
-header section nav ul li:hover ul li a:hover{
+header section #navbar ul li:hover ul li a:hover{
 	background-color: #00D3FF;	
 	color:#000000;
 }
@@ -371,75 +371,16 @@ span.EgenskaperText {
 
 
 
-@media screen and (orientation:portrait) {
-	header #overheader{
-	padding-bottom: 10px;
+@media screen and (max-width:500px) {
+header section figure #Hamburgare{
+
+	display:block;
+}
+header section #navbar {
 	width: 100%;
-	
-	background-color:#FFF500;
-	height: 67px;
-}
-
-header section nav {
-	width: 100px;
-	position: absolute;
-    display: none;
-    left: 0;
-    top: 77px;
-	background-color: yellow;
-	height: 250px; /* Ställer in bakgrundsfärgen på navbaren */
-}
-header section nav ul {
-	list-style-type:none; /* tar bort punkterna från högersidan av listan */
-	margin: 0px;
-	padding:0px; /* Nollställer padding */
-}
-
-
-header section nav ul li {
-		/* Placerar lielementen till vänster */
-	/*height: 50px;
-	margin: 0 auto;
-	position: fixed;
-	top: 0;
-	left:0; */
-
-}
-
-
-header section nav ul li a {
-	height:24px;
-	width:50px;	
-	display: block;
-	/* float: left; */
-	margin-top: 100px;
-	
-	
-
-}
-header section nav ul li .tjocklank {
-	width:150px;
+	display:none;
 	
 }
-header #overheader figure img{
-	display: block;
-	width: 520px;
-	float: left;
-	padding-bottom: 2px;
-	padding-top: 5px;
-	padding-left: 10px;
-	margin-top: 7px;
-}
-header #overheader figure img.Hamburgare{
-	display: block;
-	margin-top: 7px;
-	width: 50px;
-}
-
-
-
-
-
 }
 
 
