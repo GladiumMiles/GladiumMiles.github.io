@@ -7,7 +7,7 @@
 @charset "utf-8";
 @font-face {
   font-family: "Roboto";
-  src: url(Roboto-Regular.ttf);   
+  src: url(Roboto-Thin.ttf);   
 }
 
 body{
@@ -49,6 +49,28 @@ body{
 
 
 }
+@media screen and (orientation:portrait){
+body{
+
+    font-size: 35px;
+
+
+}
+#demo {
+  font-size: 50px;
+
+  position: fixed;
+  top: 25%;
+  left: 22%;
+}
+
+
+
+
+
+}
+
+
 
 
 </style>
@@ -88,7 +110,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "TIDEN ÄR UTE, DU FÅR F";
     }
 }, 1000);
 </script>
