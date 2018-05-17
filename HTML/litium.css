@@ -438,7 +438,43 @@ header #overheader figure img.Hamburgare{
 	margin-top: 7px;
 	width: 50px;
 }
-
+#content #ikoner {
+	max-width: 600px;
+	float: left;
+	margin-left: 50px;
+	
+	
+}
+#content #ikoner #nuvarande{
+	width: 600px;
+	height: 600px;
+	margin-left: 5px;
+	
+}
+#content #ikoner #foregaende{
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #nasta{
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-left: 10px;
+}
+#content #ikoner #foregaendeigrupp{
+	width: 150px;
+	height: 150px;
+	float: right;
+	
+}
+#content #ikoner #nastaigrupp{
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-top: 10px;
+}
 
 
 
