@@ -238,14 +238,14 @@ span.EgenskaperText {
 	
 }
 	body #stapel{
-		border: 0px solid white;
-		height: 590px;
-		width: 50px;
+		border: 1px solid white;
+		height: 95%;
+		width: 2%;
 		
 		position: fixed;
 		bottom: 0;
 		right: 0;
-}		
+}	
 	body #stapel #toppen{
 		
 		background-color: deepskyblue;
@@ -257,6 +257,22 @@ span.EgenskaperText {
 	body #stapel #botten{
 		background-color: peru;
 		
+	}
+			body #stapelvarden{
+		height: 95%;
+		width: 10%;
+		bottom: 0;
+		right: 0%;
+		position: fixed;
+	
+	}
+		body #stapelvarden img{
+		max-height: 100%;
+		
+		display: block;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 #content  #elektronbox #elektronkonfig img.kskal{
 	height: 200px;
@@ -420,8 +436,8 @@ span.EgenskaperText {
 }
 #content #elektronbox{
 
-	margin-top: 150px;
-	margin-left: 250px;
+	margin-top: 250px;
+	margin-left: -300px;
 }
 #content #elektronbox #elektronkonfig img{
 	height: 75px;
@@ -439,7 +455,50 @@ span.EgenskaperText {
 	left: 0px;
 
 }
+#content  #elektronbox #elektronkonfig img.lskal{
+	height: 400px;
+	width: 400px;
+	position: relative;
+	top: -435px;
+	left: -50px;
 }
+#content  #elektronbox #elektronkonfig img.mskal{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	top: -885px;
+	left: -100px;
+}
+#content  #elektronbox #elektronkonfig img.nskal{
+	height: 600px;
+	width: 600px;
+	position: relative;
+	top: -1435px;
+	left: -150px;
+}
+#content  #elektronbox #elektronkonfig img.oskal{
+	height: 700px;
+	width: 700px;
+	position: relative;
+	top: -2090px;
+	left: -200px;
+}
+#content  #elektronbox #elektronkonfig img.pskal{
+	height: 800px;
+	width: 800px;
+	position: relative;
+	top: -2850px;
+	left: -250px;
+}
+}
+
+
+
+
+
+
+
+
 @media screen and (orientation:portrait) {
 	header #overheader{
 	padding-bottom: 10px;

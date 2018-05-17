@@ -17,16 +17,16 @@
         StapelIntervall = 6217;
         smalt = 302;
         kok = 944;
-        SmaltHojd = (smalt/StapelIntervall)*590;
-        KokHojd = ((kok-smalt)/StapelIntervall)*590;
-        RestHojd = 590-(SmaltHojd+KokHojd);
+        SmaltHojd = (smalt/StapelIntervall)*100;
+        KokHojd = ((kok-smalt)/StapelIntervall)*100;
+        RestHojd = 100-(SmaltHojd+KokHojd);
         KokVarde = (kok/StapelIntervall)*600;
         
 
         function termometer() {
-            document.getElementById("toppen").style.height = RestHojd + "px";
-            document.getElementById("mitten").style.height = KokHojd + "px";
-            document.getElementById("botten").style.height = SmaltHojd + "px";
+            document.getElementById("toppen").style.height = RestHojd + "%";
+            document.getElementById("mitten").style.height = KokHojd + "%";
+            document.getElementById("botten").style.height = SmaltHojd + "%";
         }
 
 
@@ -164,6 +164,9 @@
                 <div id="mitten"></div>
                 <div id="botten"></div>
             </div>  
+            <figure id="stapelvarden">
+                <img src="../Bilder/Stapelvarden.png">
+            </figure>
 
 
 

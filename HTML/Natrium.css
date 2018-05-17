@@ -238,14 +238,14 @@ span.EgenskaperText {
 	
 }
 	body #stapel{
-		border: 0px solid white;
-		height: 590px;
-		width: 50px;
+		border: 1px solid white;
+		height: 95%;
+		width: 2%;
 		
 		position: fixed;
 		bottom: 0;
 		right: 0;
-}		
+}	
 	body #stapel #toppen{
 		
 		background-color: deepskyblue;
@@ -258,17 +258,21 @@ span.EgenskaperText {
 		background-color: peru;
 		
 	}
-
-	body #stapelvarden{
-		height: 590px;
+		body #stapelvarden{
+		height: 95%;
+		width: 10%;
 		bottom: 0;
-		right: 50px;
+		right: 0%;
 		position: fixed;
+	
 	}
-	body #stapelvarden img{
-		height: 590px;
+		body #stapelvarden img{
+		max-height: 100%;
 		
-
+		display: block;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 #content  #elektronbox #elektronkonfig img.kskal{
 	height: 200px;
@@ -406,15 +410,7 @@ span.EgenskaperText {
 	top: -790px;
 	left: -50px;
 }
-	body #stapel{
-		border: 0px solid white;
-		height: 900px;
-		width: 50px;
-		
-		position: fixed;
-		bottom: 0;
-		right: 0;
-}		
+
 
 }
 
