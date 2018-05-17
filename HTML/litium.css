@@ -43,7 +43,7 @@ header #overheader figure img{
 	padding-top: 5px;
 	padding-left: 10px;
 }
-header #overheader figure img.Hamburgare{
+header #overheader figure #Hamburgare{
 	width: 25px;
 	margin-top: 6px;
 	display:none;
@@ -491,7 +491,8 @@ span.EgenskaperText {
 	color: #FFFFFF;
 	font-weight:bold;
 }
-
+	body #stapel{
+		display:none;
 
 
 }
