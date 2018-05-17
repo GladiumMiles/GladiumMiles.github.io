@@ -27,13 +27,13 @@ header #overheader{
 	background-color:#ff0000;
 	height: 37px;
 }
-header section figure{
+header #overheader figure{
 	background-color:#ff0000;
 	
 	display: block;
   	
 }
-header section figure img{
+header #overheader figure img{
 	/*max-width: 25%;*/
 	display: block;
 	width: 360px;
@@ -43,30 +43,30 @@ header section figure img{
 	padding-top: 5px;
 	padding-left: 10px;
 }
-header section figure img.Hamburgare{
+header #overheader figure img.Hamburgare{
 	width: 25px;
 	margin-top: 6px;
 	display:none;
 }
-header section nav {
+header #overheader nav {
 	width: 100%;
 	
 	background-color: black;  /* Ställer in bakgrundsfärgen på navbaren */
 }
-header section nav ul {
+header #overheader nav ul {
 	list-style-type:none; /* tar bort punkterna från högersidan av listan */
 	
 	padding-left :0px; /* Nollställer padding */
 }
 
 
-header section nav ul li {
+header #overheader nav ul li {
 	float: left;	/* Placerar lielementen till vänster */
 	position:relative;
 	margin: 0 auto;	
 }
 
-header section nav ul li a {
+header #overheader nav ul li a {
 	height:24px;
 	width:125.6px;
 	padding: 12.5px 0px 5px;
@@ -86,11 +86,11 @@ header section nav ul li a {
 	
 	
 }
-header section nav ul li .tjocklank {
+header #overheader nav ul li .tjocklank {
 	width:165.6px;
 	
 }
-header section nav ul li a:hover{
+header #overheader nav ul li a:hover{
 	color: #0800D3;
 	border-color: #0800D3;
 	z-index: -1;
@@ -98,13 +98,13 @@ header section nav ul li a:hover{
 }
 
 
-header section nav ul li ul {
+header #overheader nav ul li ul {
 	display:none;
 	z-index: 1000;
 	
 }
 
-header section nav ul li:hover ul {
+header #overheader nav ul li:hover ul {
 	display:block;
 	position: absolute;
 	z-index: 1000;
@@ -112,7 +112,7 @@ header section nav ul li:hover ul {
 }
 
 
-header section nav ul li:hover ul li a{
+header #overheader nav ul li:hover ul li a{
 	height: 35px;
 	display:block;
 	text-align:left;
@@ -125,13 +125,13 @@ header section nav ul li:hover ul li a{
 	z-index: 1000;
 	
 }
-header section nav ul li:hover ul li .tjocklank{
+header #overheader nav ul li:hover ul li .tjocklank{
 	width:155.6px;
 	
 }
 
 
-header section nav ul li:hover ul li a:hover{
+header #overheader nav ul li:hover ul li a:hover{
 	background-color: #00D3FF;	
 	color:#000000;
 }
@@ -238,9 +238,9 @@ span.EgenskaperText {
 	
 }
 	body #stapel{
-		border: 0px solid white;
-		height: 590px;
-		width: 50px;
+		border: 1px solid white;
+		height: 95%;
+		width: 2%;
 		
 		position: fixed;
 		bottom: 0;
@@ -259,15 +259,20 @@ span.EgenskaperText {
 		
 	}
 		body #stapelvarden{
-		height: 590px;
+		height: 95%;
+		width: 10%;
 		bottom: 0;
-		right: 50px;
+		right: 0%;
 		position: fixed;
+	
 	}
 		body #stapelvarden img{
-		height: 590px;
+		max-height: 100%;
 		
-
+		display: block;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 #content  #elektronbox #elektronkonfig img.kskal{
 	height: 200px;
@@ -360,7 +365,7 @@ span.EgenskaperText {
 #content #elektronbox{
 
 	margin-top: 150px;
-	margin-left: 0px;
+	margin-left: -100px;
 }
 #content #elektronbox #elektronkonfig img{
 	height: 75px;
@@ -394,44 +399,28 @@ span.EgenskaperText {
 
 }
 @media screen and (orientation:portrait) {
-	header #overheader{
-	padding-bottom: 10px;
-	width: 100%;
+header #overheader figure{
+	background-color:black;
+	max-width: 100%;
 	display: block;
-	background-color:red;
-	height: 67px;
+  	
 }
-
-header section .navbar {
-	width: 100px;
-	position: absolute;
-    display: none;
-    left: 0;
-    top: 77px;
-	background-color: yellow;  /* Ställer in bakgrundsfärgen på navbaren */
-}
-header section nav ul {
-	list-style-type:none; /* tar bort punkterna från högersidan av listan */
-	
-	padding-left :0px; /* Nollställer padding */
-}
-
-
-header section nav ul li {
-	float: left;	/* Placerar lielementen till vänster */
-	position:relative;
-	margin: 0 auto;	
-}
-
-
-
-
-header section nav ul li a {
+header #overheader nav ul li a {
 	height:24px;
-	width:150px;	
+	width:20.6px;	
+	display: none;
+}
+header #overheader figure #Hamburgare{
+	width: 41px;
 	display: block;
 }
-header section nav ul li .tjocklank {
+
+header #overheader figure #logga{
+	width: 400px;
+	display: block;
+}
+
+header #overheader nav ul li .tjocklank {
 	width:150px;
 	
 }
@@ -440,7 +429,7 @@ header #overheader figure img{
 	width: 520px;
 	float: left;
 	padding-bottom: 2px;
-	padding-top: 5px;
+	padding-top: 5px;max-width:100%;
 	padding-left: 10px;
 	margin-top: 7px;
 }

@@ -17,16 +17,16 @@
         StapelIntervall = 6217;
         smalt = 454;
         kok = 1603;
-        SmaltHojd = (smalt/StapelIntervall)*590;
-        KokHojd = ((kok-smalt)/StapelIntervall)*590;
-        RestHojd = 590-(SmaltHojd+KokHojd);
-        KokVarde = (kok/StapelIntervall)*590;
+        SmaltHojd = (smalt/StapelIntervall)*100;
+        KokHojd = ((kok-smalt)/StapelIntervall)*100;
+        RestHojd = 100-(SmaltHojd+KokHojd);
+        KokVarde = (kok/StapelIntervall)*600;
         
 
         function termometer() {
-            document.getElementById("toppen").style.height = RestHojd + "px";
-            document.getElementById("mitten").style.height = KokHojd + "px";
-            document.getElementById("botten").style.height = SmaltHojd + "px";
+            document.getElementById("toppen").style.height = RestHojd + "%";
+            document.getElementById("mitten").style.height = KokHojd + "%";
+            document.getElementById("botten").style.height = SmaltHojd + "%";
         }
 
 
@@ -37,11 +37,10 @@
 <body onLoad="termometer()">
 <header>
   <section id="overheader" >
-    	<a href="../index.html">
-        <figure>
-            <img class="Hamburgare" src="../Bilder/HamburgareSvart.png" alt="#">
-    		<img src="periodiska_systemet3.png" alt="#">
-    	</figure></a> 
+    <figure>
+            <img id="Hamburgare" src="../Bilder/Hamburgare.png" alt="#">
+            <img id="logga" src="periodiska_systemet2.png" alt="#">
+        </figure>
     	<nav>
         	 <ul>
                             <li><a href="#">Systemet</a>
