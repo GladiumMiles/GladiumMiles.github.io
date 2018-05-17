@@ -475,7 +475,22 @@ header #overheader figure img.Hamburgare{
 	float: right;
 	margin-top: 10px;
 }
-
+#content #Egenskaperbox .Egenskaper{
+	
+	padding-left: 15px;
+	
+	float: left;
+		color: #D4B8B9;
+  	font-family:"Rex Light";
+	font-size: 35px;	
+	margin-left: 0px;
+	
+	line-height: 35px;
+}
+span.EgenskaperText {
+	color: #FFFFFF;
+	font-weight:bold;
+}
 
 
 
