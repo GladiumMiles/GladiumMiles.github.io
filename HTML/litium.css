@@ -399,6 +399,11 @@ span.EgenskaperText {
 
 }
 @media screen and (max-width:470px) {
+header{
+	position: fixed;
+	top: 0;
+	left: 0;	
+}
 header #overheader figure{
 	background-color:black;
 	max-width: 100%;
@@ -439,11 +444,15 @@ header #overheader figure img.Hamburgare{
 	margin-top: 7px;
 	width: 50px;
 }
+#content{
+	margin-top: 100px;
+
+}
 #content #ikoner {
 	max-width: 300px;
 	float: left;
 	margin-left: 50px;
-	
+	margin-top: 50px;
 	
 }
 #content #ikoner #nuvarande{
@@ -478,7 +487,8 @@ header #overheader figure img.Hamburgare{
 }
 #content #namn h1{
 	position: relative;
-	top: -1030px;
+	top: -1100px;
+	left: 25px;
 }
 #content #Egenskaperbox .Egenskaper{
 	
@@ -503,6 +513,12 @@ span.EgenskaperText {
 		display: none;
 
 	}
+
+	#content #elektronbox{
+
+	margin-top: 150px;
+	margin-left: 0px;
+}
 }
 
 
